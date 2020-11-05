@@ -8,18 +8,18 @@ public class MyTest {
 
     public static void main(String[] args) throws Exception {
         integer.getAndIncrement();
-//        Test01 t01=new Test01();
+        Test01 t01=new Test01();
 //        Test01 t02=new Test01();
-//        Thread t1 = new Thread(t01);
+        Thread t1 = new Thread(t01);
 //        Thread t2 = new Thread(t02);
-//        t1.start();
+        t1.start();
 //        t2.start();
 
-        File file = new File("C:"+File.separator+"IO"+File.separator);
-        //读取目录下所有文件
-        String[] filelist = file.list();
-
-        System.out.println(filelist);
+//        File file = new File("C:"+File.separator+"IO"+File.separator);
+//        //读取目录下所有文件
+//        String[] filelist = file.list();
+//
+//        System.out.println(filelist);
 
     }
     static class Test01 implements Runnable{
