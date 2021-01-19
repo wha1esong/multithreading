@@ -1,0 +1,2769 @@
+{
+  "com.huixian.saastrade.dubbo.facade.api.DubboPayOrderService": {
+    "provider": [
+      "saas-trade"
+    ],
+    "consumer": [
+      "check-account"
+    ]
+  },
+  "com.huixian.anxinpinjob.dubbo.facade.api.DubboFactoryService": {
+    "provider": [
+      "anxinpin-job"
+    ],
+    "consumer": [
+      "anxinpin-admin",
+      "anxinpin-enterprise"
+    ]
+  },
+  "com.huixian.marketcenter.dubbo.facade.api.DubboChallengeService": {
+    "provider": [
+      "market-center"
+    ],
+    "consumer": [
+      "user-growth"
+    ]
+  },
+  "com.huixian.saasadvance.dubbo.facade.api.DubboAdvanceDeductService": {
+    "provider": [
+      "saas-advance"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboAppServerConfigService": {
+    "provider": [
+      "saas-staff-api"
+    ],
+    "consumer": [
+      "saas-admin-api"
+    ]
+  },
+  "com.huixian.anxinpinoperate.dubbo.facade.api.DubboOperateService": {
+    "provider": [
+      "anxinpin-operate"
+    ],
+    "consumer": [
+      "anxinpin-admin",
+      "anxinpin-seeker"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboFactoringService": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-factoring"
+    ]
+  },
+  "com.huixian.saasrecruitmarket.dubbo.facade.api.DubboSeekerMarketService": {
+    "provider": [
+      "saas-recruit-market"
+    ],
+    "consumer": [
+      "saas-recruit-seeker"
+    ]
+  },
+  "com.huixian.saasrecruitmarket.dubbo.facade.api.DubboCorpMarketService": {
+    "provider": [
+      "saas-recruit-market"
+    ],
+    "consumer": [
+      "saas-recruit-corp"
+    ]
+  },
+  "com.huixian.marketcenter.dubbo.facade.api.DubboIncVideosTaskService": {
+    "provider": [
+      "market-center"
+    ],
+    "consumer": [
+      "hourly-work"
+    ]
+  },
+  "com.huixian.saasrecruitcorp.dubbo.facade.api.DubboApplyMiniProgramService": {
+    "provider": [
+      "saas-recruit-corp"
+    ],
+    "consumer": [
+      "saas-admin-api"
+    ]
+  },
+  "com.huixian.saassalaryapi.dubbo.facade.api.DubboFactoringService": {
+    "provider": [
+      "saas-salary-api"
+    ],
+    "consumer": [
+      "saas-factoring"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboTicketNotifyService:salary": {
+    "provider": [
+      "saas-salary-api"
+    ],
+    "consumer": [
+      "saas-trade"
+    ]
+  },
+  "com.huixian.saaswallet.dubbo.facade.api.DubboWalletOrderService": {
+    "provider": [
+      "saas-wallet"
+    ],
+    "consumer": [
+      "saas-merchant",
+      "saas-trade"
+    ]
+  },
+  "com.huixian.saassalaryapi.dubbo.facade.api.DubboSalaryPushService": {
+    "provider": [
+      "saas-salary-api"
+    ],
+    "consumer": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasrisklab.dubbo.facade.api.DubboRiskPlanService": {
+    "provider": [
+      "saas-risk-lab"
+    ],
+    "consumer": [
+      "saas-biz-risk"
+    ]
+  },
+  "com.huixian.adservice.dubbo.facade.api.DubboAdPositionService": {
+    "provider": [
+      "ad-service"
+    ],
+    "consumer": [
+      "hourly-work",
+      "integrated-work"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboSalaryOrderService": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-factoring"
+    ]
+  },
+  "com.huixian.anxinpinoperate.dubbo.facade.api.DubboQiNiuService": {
+    "provider": [
+      "anxinpin-operate"
+    ],
+    "consumer": [
+      "anxinpin-admin",
+      "anxinpin-seeker"
+    ]
+  },
+  "com.huixian.saasmerchant.dubbo.facade.api.DubboMerchantOpenAccountService": {
+    "provider": [
+      "saas-merchant"
+    ],
+    "consumer": [
+      "saas-advance",
+      "saas-agency",
+      "saas-contract",
+      "saas-dispatch-api",
+      "saas-employee-manage",
+      "saas-payroll",
+      "saas-salary-api",
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.member.dubbo.facade.api.DubboBenefitService": {
+    "provider": [
+      "member"
+    ],
+    "consumer": [
+      "hourly-work",
+      "piece-work"
+    ]
+  },
+  "com.huixian.payment.dubbo.facade.api.DubboAlipayAppService": {
+    "provider": [
+      "payment"
+    ],
+    "consumer": [
+      "assistant"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.DubboInterviewFactoryOperatorMappingService": {
+    "provider": [
+      "saas-employee-manage"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasreportmanager.dubbo.facade.api.DubboExcelExportService:salary-history": {
+    "provider": [
+      "saas-salary-api"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.saasrisk.dubbo.facade.api.DubboStaffReportDeviceLocation": {
+    "provider": [
+      "saas-risk"
+    ],
+    "consumer": [
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.anxinpinenterprise.dubbo.facade.api.DubboEnterpriseInfoService": {
+    "provider": [
+      "anxinpin-enterprise"
+    ],
+    "consumer": [
+      "anxinpin-admin",
+      "anxinpin-job",
+      "anxinpin-wyim"
+    ]
+  },
+  "com.huixian.axUser.dubbo.facade.api.DubboALiUserService": {
+    "provider": [
+      "user-center"
+    ],
+    "consumer": [
+      "activity-third-account",
+      "java-proxy",
+      "redpack"
+    ]
+  },
+  "com.huixian.saasrecruitorder.dubbo.facade.api.DubboCorpOrderRptService": {
+    "provider": [
+      "saas-recruit-order"
+    ],
+    "consumer": [
+      "saas-recruit-corp"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboRecordService": {
+    "provider": [
+      "saas-trade"
+    ],
+    "consumer": [
+      "saas-admin-api",
+      "saas-agency",
+      "saas-dispatch-api",
+      "saas-salary-api"
+    ]
+  },
+  "com.huixian.datacenter.dubbo.facade.api.DubboDataService": {
+    "provider": [
+      "data-center"
+    ],
+    "consumer": [
+      "anxingou",
+      "anxinpin-enterprise",
+      "anxinpin-job",
+      "java-proxy",
+      "message",
+      "push",
+      "push-plus",
+      "user-profile"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.DubboEmployeeRegisterService": {
+    "provider": [
+      "saas-employee-manage"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.laborer.DubboLaborerSalaryModelService": {
+    "provider": [
+      "saas-employee-manage"
+    ],
+    "consumer": [
+      "saas-daily-wage-api",
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.marketcenter.dubbo.facade.api.DubboAdBusinessService": {
+    "provider": [
+      "market-center"
+    ],
+    "consumer": [
+      "ad-service"
+    ]
+  },
+  "com.huixian.saasreportmanager.dubbo.facade.api.DubboExcelExportService:daily-salary-record": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.saascontract.dubbo.facade.api.DubboContractBatchService": {
+    "provider": [
+      "saas-contract"
+    ],
+    "consumer": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.marketcenter.dubbo.facade.api.DubboRuleService": {
+    "provider": [
+      "market-center"
+    ],
+    "consumer": [
+      "activity-third-account"
+    ]
+  },
+  "com.huixian.axcloudad.dubbo.facade.api.DubboAdTemplateService": {
+    "provider": [
+      "axcloud-ad"
+    ],
+    "consumer": [
+      "axcloud-tenant"
+    ]
+  },
+  "com.huixian.anxinpinenterprise.dubbo.facade.api.DubboAxpAdminService": {
+    "provider": [
+      "anxinpin-enterprise"
+    ],
+    "consumer": [
+      "anxinpin-admin"
+    ]
+  },
+  "com.huixian.saasrecruitorder.dubbo.facade.api.DubboMiniCorpOrderService": {
+    "provider": [
+      "saas-recruit-order"
+    ],
+    "consumer": [
+      "saas-recruit-corp"
+    ]
+  },
+  "com.huixian.axcloudpermission.dubbo.facade.api.DubboAppService": {
+    "provider": [
+      "axcloud-permission"
+    ],
+    "consumer": [
+      "axcloud-employee"
+    ]
+  },
+  "com.huixian.saasworkattendanceapi.dubbo.facade.api.DubboSignAuditService": {
+    "provider": [
+      "saas-work-attendance-api"
+    ],
+    "consumer": [
+      "saas-agency",
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.push.dubbo.facade.api.DubboPushService": {
+    "provider": [
+      "push"
+    ],
+    "consumer": [
+      "java-proxy"
+    ]
+  },
+  "com.huixian.anxinpinenterprise.dubbo.facade.api.DubboSeekerEnterpriseService": {
+    "provider": [
+      "anxinpin-enterprise"
+    ],
+    "consumer": [
+      "anxinpin-job"
+    ]
+  },
+  "com.huixian.saasrecruitorder.dubbo.facade.api.DubboCorpExcelService": {
+    "provider": [
+      "saas-recruit-order"
+    ],
+    "consumer": [
+      "saas-recruit-corp"
+    ]
+  },
+  "com.huixian.usergrowth.dubbo.facade.api.DubboInviteTaskService": {
+    "provider": [
+      "user-growth"
+    ],
+    "consumer": [
+      "market-center"
+    ]
+  },
+  "com.huixian.saasreportmanager.dubbo.facade.api.DubboExcelExportService:daily-salary-audit": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.redpack.dubbo.facade.api.DubboRedPackDrawService": {
+    "provider": [
+      "redpack"
+    ],
+    "consumer": [
+      "java-proxy",
+      "payment"
+    ]
+  },
+  "com.huixian.axcloudemployee.dubbo.facade.api.DubboAppInitIService": {
+    "provider": [
+      "axcloud-employee"
+    ],
+    "consumer": [
+      "axcloud-tenant"
+    ]
+  },
+  "com.huixian.anxinpinenterprise.dubbo.facade.api.DubboWeChatService": {
+    "provider": [
+      "anxinpin-enterprise"
+    ],
+    "consumer": [
+      "anxinpin-wyim"
+    ]
+  },
+  "com.huixian.anxingou.dubbo.facade.api.admin.DubboItemPoolManagementService": {
+    "provider": [
+      "anxingou"
+    ],
+    "consumer": [
+      "anxingou-admin-server"
+    ]
+  },
+  "com.huixian.saaschargemanage.dubbo.facade.api.DubboChargeAppService": {
+    "provider": [
+      "saas-charge-manage"
+    ],
+    "consumer": [
+      "saas-admin-api"
+    ]
+  },
+  "com.huixian.saasmerchant.dubbo.facade.api.DubboMiniProgramApplyService": {
+    "provider": [
+      "saas-merchant"
+    ],
+    "consumer": [
+      "saas-admin-api"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.laborer.DubboLaborerEntryManagerQueryService": {
+    "provider": [
+      "saas-employee-manage"
+    ],
+    "consumer": [
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.axUser.dubbo.facade.api.DubboUserService": {
+    "provider": [
+      "user-center"
+    ],
+    "consumer": [
+      "java-proxy",
+      "redpack",
+      "user-profile"
+    ]
+  },
+  "com.huixian.saasadvance.dubbo.facade.api.DubboAdvanceService": {
+    "provider": [
+      "saas-advance"
+    ],
+    "consumer": [
+      "saas-dispatch-api",
+      "saas-report-manager",
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasreportmanager.dubbo.facade.api.DubboExcelExportService:agency-daily-record": {
+    "provider": [
+      "saas-agency"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.axUser.dubbo.facade.api.DubboWxUserServiceV2": {
+    "provider": [
+      "user-center"
+    ],
+    "consumer": [
+      "hourly-work",
+      "integrated-work",
+      "market-activity"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboDailySalaryTaskService": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.saasmerchant.dubbo.facade.api.DubboMiniProgramService": {
+    "provider": [
+      "saas-merchant"
+    ],
+    "consumer": [
+      "saas-admin-api",
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.axcloudpermission.dubbo.facade.api.DubboRoleService": {
+    "provider": [
+      "axcloud-permission"
+    ],
+    "consumer": [
+      "axcloud-employee"
+    ]
+  },
+  "com.huixian.marketcenter.dubbo.facade.api.DubboVideosTaskService": {
+    "provider": [
+      "market-center"
+    ],
+    "consumer": [
+      "hourly-work"
+    ]
+  },
+  "com.huixian.saasreportmanager.dubbo.facade.api.DubboExcelExportService:agency-daily-attendance-record": {
+    "provider": [
+      "saas-agency"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.adservice.dubbo.facade.api.DubboAdPutPositionService": {
+    "provider": [
+      "ad-service"
+    ],
+    "consumer": [
+      "market-center"
+    ]
+  },
+  "com.huixian.datacenter.dubbo.facade.api.DubboSensorsUserGroupService": {
+    "provider": [
+      "data-center"
+    ],
+    "consumer": [
+      "push",
+      "push-plus"
+    ]
+  },
+  "com.huixian.saassalaryapi.dubbo.facade.api.DubboSalaryOrderService": {
+    "provider": [
+      "saas-salary-api"
+    ],
+    "consumer": [
+      "saas-admin-api",
+      "saas-dispatch-api",
+      "saas-factoring",
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.saasfactoring.dubbo.facade.api.DubboFactoringMerchantService": {
+    "provider": [
+      "saas-factoring"
+    ],
+    "consumer": [
+      "saas-admin-api",
+      "saas-wallet"
+    ]
+  },
+  "com.huixian.saasdailywageapi.dubbo.facade.api.DubboDailySalaryService": {
+    "provider": [
+      "saas-daily-wage-api"
+    ],
+    "consumer": [
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.payment.dubbo.facade.api.DubboPaymentServiceV2": {
+    "provider": [
+      "payment"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.anxingou.dubbo.facade.api.admin.DubboInstationItemManagementService": {
+    "provider": [
+      "anxingou"
+    ],
+    "consumer": [
+      "anxingou-admin-server"
+    ]
+  },
+  "com.huixian.axcloudemployee.dubbo.facade.api.DubboRoleIService": {
+    "provider": [
+      "axcloud-employee"
+    ],
+    "consumer": [
+      "axcloud-tenant"
+    ]
+  },
+  "com.huixian.saasuser.dubbo.facade.api.role.DubboSaasRoleService": {
+    "provider": [
+      "saas-user"
+    ],
+    "consumer": [
+      "gemini-boss-api",
+      "gemini-staff-api",
+      "saas-admin-api"
+    ]
+  },
+  "com.huixian.saaswallet.dubbo.facade.api.DubboOpenAccountService": {
+    "provider": [
+      "saas-wallet"
+    ],
+    "consumer": [
+      "saas-admin-api",
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasadminapi.dubbo.facade.api.DubboAdminMerchantNoticeService": {
+    "provider": [
+      "saas-admin-api"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasreportmanager.dubbo.facade.api.DubboExcelExportService:daily-salary-attendance-record": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.saasagency.dubbo.facade.api.DubboMerchantFactoryService": {
+    "provider": [
+      "saas-agency"
+    ],
+    "consumer": [
+      "saas-biz-risk",
+      "saas-risk-admin-api"
+    ]
+  },
+  "com.huixian.userprofile.dubbo.facade.api.DubboUserProfileTagService": {
+    "provider": [
+      "user-profile"
+    ],
+    "consumer": [
+      "alpha-risk",
+      "java-proxy",
+      "redpack"
+    ]
+  },
+  "com.huixian.marketcenter.dubbo.facade.api.DubboNewsTaskService": {
+    "provider": [
+      "market-center"
+    ],
+    "consumer": [
+      "hourly-work"
+    ]
+  },
+  "com.huixian.saasappeal.dubbo.facade.api.DubboAppealService": {
+    "provider": [],
+    "consumer": [
+      "saas-appeal",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboReceiveService": {
+    "provider": [
+      "saas-trade"
+    ],
+    "consumer": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasuser.dubbo.facade.api.user.DubboSaasUserService": {
+    "provider": [
+      "saas-user"
+    ],
+    "consumer": [
+      "gemini-boss-api",
+      "gemini-staff-api",
+      "saas-admin-api"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboMerchantService": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-admin-api",
+      "saas-advance",
+      "saas-charge-manage",
+      "saas-contract",
+      "saas-dispatch-permission",
+      "saas-employee-manage",
+      "saas-salary-api",
+      "saas-staff-api",
+      "saas-technology"
+    ]
+  },
+  "com.huixian.lotteryapi.dubbo.facade.api.DubboLotteryReceiveAwardService": {
+    "provider": [
+      "lottery-api"
+    ],
+    "consumer": [
+      "market-center"
+    ]
+  },
+  "com.huixian.saasmerchant.dubbo.facade.api.DubboMerchantAttrService": {
+    "provider": [
+      "saas-merchant"
+    ],
+    "consumer": [
+      "saas-admin-api",
+      "saas-advance",
+      "saas-agency",
+      "saas-charge-manage",
+      "saas-contract",
+      "saas-daily-wage-api",
+      "saas-dispatch-api",
+      "saas-employee-manage",
+      "saas-payroll",
+      "saas-report-manager",
+      "saas-risk",
+      "saas-salary-api",
+      "saas-staff-api",
+      "saas-technology",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.activitythirdaccount.dubbo.facade.api.DubboHfThirdRechargeService:market-center": {
+    "provider": [
+      "market-center"
+    ],
+    "consumer": [
+      "activity-third-account"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboDispatchWeekSalaryTaskService": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.DubboPartnerService": {
+    "provider": [
+      "saas-employee-manage"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboDailySalaryService": {
+    "provider": [
+      "saas-staff-api"
+    ],
+    "consumer": [
+      "saas-agency",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.ssologinapi.dubbo.facade.api.DubboDelCacheService": {
+    "provider": [
+      "sso-login-api"
+    ],
+    "consumer": [
+      "sso-admin-api"
+    ]
+  },
+  "com.huixian.saasrecruitseeker.dubbo.facade.api.DubboCorpService": {
+    "provider": [
+      "saas-recruit-seeker"
+    ],
+    "consumer": [
+      "saas-recruit-corp"
+    ]
+  },
+  "com.huixian.adservice.dubbo.facade.api.DubboAdEventService": {
+    "provider": [
+      "ad-service"
+    ],
+    "consumer": [
+      "market-activity"
+    ]
+  },
+  "com.huixian.saasreportmanager.dubbo.facade.api.DubboExcelExportService:laborer_problem": {
+    "provider": [
+      "saas-employee-manage"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.redpack.dubbo.facade.api.DubboRedPackService": {
+    "provider": [
+      "redpack"
+    ],
+    "consumer": [
+      "java-proxy",
+      "user-center"
+    ]
+  },
+  "com.huixian.saascontract.dubbo.facade.api.DubboContractOrderService": {
+    "provider": [
+      "saas-contract"
+    ],
+    "consumer": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saaswallet.dubbo.facade.api.DubboUserService": {
+    "provider": [
+      "saas-wallet"
+    ],
+    "consumer": [
+      "gemini-boss-api",
+      "gemini-staff-api",
+      "saas-dispatch-api",
+      "saas-merchant",
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboShareService": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasadminapi.dubbo.facade.api.DubboMerchantServerService": {
+    "provider": [
+      "saas-admin-api"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.alpharisk.dubbo.facade.api.DubboFaceService": {
+    "provider": [
+      "alpha-risk"
+    ],
+    "consumer": [
+      "saas-employee-manage"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboSalaryService": {
+    "provider": [
+      "saas-staff-api"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.axcloudad.dubbo.facade.api.DubboAdCommonService": {
+    "provider": [
+      "axcloud-ad"
+    ],
+    "consumer": [
+      "axcloud-tenant"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboDispatchConfigService": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-salary-api"
+    ]
+  },
+  "com.huixian.axUser.dubbo.facade.api.DubboTokenServiceV2": {
+    "provider": [
+      "user-center"
+    ],
+    "consumer": [
+      "hourly-work",
+      "integrated-work",
+      "piece-work"
+    ]
+  },
+  "com.huixian.saasagency.dubbo.facade.api.DubboAgencyPushService": {
+    "provider": [
+      "saas-agency"
+    ],
+    "consumer": [
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboInterviewFactoryService": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-contract",
+      "saas-employee-manage"
+    ]
+  },
+  "com.huixian.saascontract.dubbo.facade.api.DubboPersonalContractService": {
+    "provider": [
+      "saas-contract"
+    ],
+    "consumer": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.axUser.dubbo.facade.api.DubboDeviceInfoService": {
+    "provider": [
+      "user-center"
+    ],
+    "consumer": [
+      "java-proxy"
+    ]
+  },
+  "com.huixian.anxingou.dubbo.facade.api.admin.DubboSeckillManagementService": {
+    "provider": [
+      "anxingou"
+    ],
+    "consumer": [
+      "anxingou-admin-server"
+    ]
+  },
+  "com.huixian.saasadvance.dubbo.facade.api.DubboResidentAuditService": {
+    "provider": [
+      "saas-advance"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboCustomerService": {
+    "provider": [
+      "saas-staff-api"
+    ],
+    "consumer": [
+      "saas-advance",
+      "saas-agency",
+      "saas-dispatch-api",
+      "saas-employee-manage",
+      "saas-salary-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasagency.dubbo.facade.api.DubboDailySalaryService": {
+    "provider": [
+      "saas-agency"
+    ],
+    "consumer": [
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboSyncDailySalaryRecordService": {
+    "provider": [
+      "saas-staff-api"
+    ],
+    "consumer": [
+      "saas-agency",
+      "saas-employee-manage"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboUserBlackListService": {
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-risk-admin-api"
+    ]
+  },
+  "com.huixian.saasemployeeim.dubbo.facade.api.DubboImAccountService": {
+    "provider": [
+      "saas-employee-im"
+    ],
+    "consumer": [
+      "saas-dispatch-api",
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.ssoadminapi.dubbo.facade.api.DubboDingDingService": {
+    "provider": [
+      "sso-admin-api"
+    ],
+    "consumer": [
+      "sso-login-api"
+    ]
+  },
+  "com.huixian.alpharisk.dubbo.facade.api.DubboBankCardService": {
+    "provider": [
+      "alpha-risk"
+    ],
+    "consumer": [
+      "gemini-staff-api",
+      "saas-dispatch-api",
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.DubboEmployeeInterviewJobService": {
+    "provider": [
+      "saas-employee-manage"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasadvance.dubbo.facade.api.DubboAdvancePushService": {
+    "provider": [
+      "saas-advance"
+    ],
+    "consumer": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.anxinpinjob.dubbo.facade.api.DubboCityService": {
+    "provider": [
+      "anxinpin-job"
+    ],
+    "consumer": [
+      "anxinpin-seeker"
+    ]
+  },
+  "com.huixian.member.dubbo.facade.api.DubboMemberActivityService": {
+    "provider": [
+      "member"
+    ],
+    "consumer": [
+      "activity-third-account",
+      "ad-service",
+      "market-activity",
+      "market-center",
+      "user-growth"
+    ]
+  },
+  "com.huixian.saasmerchant.dubbo.facade.api.DubboMerchantThemeService": {
+    "provider": [
+      "saas-merchant"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboDailySalaryService": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-agency",
+      "saas-report-manager",
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasrecruitcorp.dubbo.facade.api.DubboMiniProgramService": {
+    "provider": [
+      "saas-recruit-corp"
+    ],
+    "consumer": [
+      "saas-admin-api"
+    ]
+  },
+  "com.huixian.alpharisk.dubbo.facade.api.DubboIdCardVerifyService": {
+    "provider": [
+      "alpha-risk"
+    ],
+    "consumer": [
+      "gemini-boss-api",
+      "gemini-staff-api",
+      "saas-admin-api",
+      "saas-agency",
+      "saas-daily-wage-api",
+      "saas-dispatch-api",
+      "saas-employee-manage",
+      "saas-merchant",
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboWeixinService": {
+    "provider": [
+      "saas-staff-api"
+    ],
+    "consumer": [
+      "saas-agency"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboUserService": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-admin-api",
+      "saas-advance",
+      "saas-contract",
+      "saas-daily-wage-api",
+      "saas-employee-manage",
+      "saas-payroll",
+      "saas-salary-api"
+    ]
+  },
+  "com.huixian.saasenterprise.dubbo.facade.api.boss.DubboBossStaffService": {
+    "provider": [
+      "saas-enterprise"
+    ],
+    "consumer": [
+      "gemini-boss-api"
+    ]
+  },
+  "com.huixian.anxingou.dubbo.facade.api.admin.DubboItemTagManagementService": {
+    "provider": [
+      "anxingou"
+    ],
+    "consumer": [
+      "anxingou-admin-server"
+    ]
+  },
+  "com.huixian.saasrisk.dubbo.facade.api.DubboStaffReportDeviceInfo": {
+    "provider": [
+      "saas-risk"
+    ],
+    "consumer": [
+      "saas-agency",
+      "saas-daily-wage-api",
+      "saas-dispatch-api",
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboKeFuService": {
+    "provider": [
+      "saas-staff-api"
+    ],
+    "consumer": [
+      "saas-dispatch-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboUserFactoryService": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-daily-wage-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.laborer.DubboLaborerExcelImportService": {
+    "provider": [
+      "saas-employee-manage"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.axcloudpermission.dubbo.facade.api.DubboAuthenticationService": {
+    "provider": [
+      "axcloud-permission"
+    ],
+    "consumer": [
+      "axcloud-employee"
+    ]
+  },
+  "com.huixian.axcloudemployee.dubbo.facade.api.DubboResourceIService": {
+    "provider": [
+      "axcloud-employee"
+    ],
+    "consumer": [
+      "axcloud-tenant"
+    ]
+  },
+  "com.huixian.message.dubbo.facade.api.DubboSmsChannelService": {
+    "provider": [
+      "message"
+    ],
+    "consumer": [
+      "axcloud-tenant"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboRiskAppealManagementService": {
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-appeal",
+      "saas-risk-admin-api"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboRiskFileManagementService": {
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-risk-admin-api"
+    ]
+  },
+  "com.huixian.axUser.dubbo.facade.api.DubboTaobaoUserServiceV2": {
+    "provider": [
+      "user-center"
+    ],
+    "consumer": [
+      "anxingou"
+    ]
+  },
+  "com.huixian.activitythirdaccount.dubbo.facade.api.DubboCoinCorrelationService": {
+    "provider": [
+      "activity-third-account"
+    ],
+    "consumer": [
+      "hourly-work",
+      "lottery-api",
+      "market-center",
+      "redpack",
+      "user-growth"
+    ]
+  },
+  "com.huixian.anxingou.dubbo.facade.api.admin.DubboItemIconManagementService": {
+    "provider": [
+      "anxingou"
+    ],
+    "consumer": [
+      "anxingou-admin-server"
+    ]
+  },
+  "com.huixian.saaschargemanage.dubbo.facade.api.DubboChargeService": {
+    "provider": [
+      "saas-charge-manage"
+    ],
+    "consumer": [
+      "saas-admin-api",
+      "saas-dispatch-api",
+      "saas-employee-manage"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.DubboRiskStrategyService": {
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-risk-lab"
+    ]
+  },
+  "com.huixian.saasreportmanager.dubbo.facade.api.DubboExcelExportService:deduct-record": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.userprofile.dubbo.facade.api.DubboUserTagService": {
+    "provider": [
+      "user-profile"
+    ],
+    "consumer": [
+      "activity-third-account",
+      "ad-service",
+      "jjb-app-service",
+      "market-center",
+      "redpack"
+    ]
+  },
+  "com.huixian.axUser.dubbo.facade.api.DubboDeviceInfoServiceV2": {
+    "provider": [
+      "user-center"
+    ],
+    "consumer": [
+      "user-growth",
+      "user-profile"
+    ]
+  },
+  "com.huixian.saaschargemanage.dubbo.facade.api.DubboChargeOrderService": {
+    "provider": [
+      "saas-charge-manage"
+    ],
+    "consumer": [
+      "saas-admin-api",
+      "saas-employee-manage",
+      "saas-payroll"
+    ]
+  },
+  "com.huixian.saasstandardfactoryapi.dubbo.facade.api.DubboMerchantFenceService": {
+    "provider": [
+      "saas-standard-factory-api"
+    ],
+    "consumer": [
+      "saas-daily-wage-api",
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboUserQueryService": {
+    "provider": [
+      "saas-trade"
+    ],
+    "consumer": [
+      "gemini-staff-api"
+    ]
+  },
+  "com.huixian.axUser.dubbo.facade.api.DubboUserServiceV2": {
+    "provider": [
+      "user-center"
+    ],
+    "consumer": [
+      "activity-third-account",
+      "anxingou",
+      "anxinpin-seeker",
+      "hourly-work",
+      "integrated-work",
+      "market-activity",
+      "market-center",
+      "market-gateway",
+      "member",
+      "piece-work",
+      "user-growth"
+    ]
+  },
+  "com.huixian.axUser.dubbo.facade.api.DubboAppleUserService": {
+    "provider": [
+      "user-center"
+    ],
+    "consumer": [
+      "java-proxy"
+    ]
+  },
+  "com.huixian.message.dubbo.facade.api.DubboSmsTemplateService": {
+    "provider": [
+      "message"
+    ],
+    "consumer": [
+      "axcloud-tenant"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboDispatchDeductService": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.axUser.dubbo.facade.api.DubboAppleUserServiceV2": {
+    "provider": [
+      "user-center"
+    ],
+    "consumer": [
+      "hourly-work"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.DubboEmployeeManageUserService": {
+    "provider": [
+      "saas-employee-manage"
+    ],
+    "consumer": [
+      "saas-dispatch-api",
+      "saas-merchant"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboSalaryService": {
+    "provider": [
+      "saas-trade"
+    ],
+    "consumer": [
+      "gemini-boss-api",
+      "saas-advance",
+      "saas-agency",
+      "saas-daily-wage-api",
+      "saas-dispatch-api",
+      "saas-salary-api"
+    ]
+  },
+  "com.huixian.saaswallet.dubbo.facade.api.DubboAccountQueryService": {
+    "provider": [
+      "saas-wallet"
+    ],
+    "consumer": [
+      "gemini-boss-api",
+      "saas-admin-api",
+      "saas-trade"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboDispatchPushService": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasenterprise.dubbo.facade.api.DubboQrCodeService": {
+    "provider": [
+      "saas-enterprise"
+    ],
+    "consumer": [
+      "gemini-boss-api",
+      "gemini-staff-api"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboRiskStrategyManagementService": {
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-risk-admin-api"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboCustomerAttendanceService": {
+    "provider": [
+      "saas-staff-api"
+    ],
+    "consumer": [
+      "saas-agency",
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasroute.dubbo.facade.api.DubboRouteService": {
+    "provider": [
+      "saas-route"
+    ],
+    "consumer": [
+      "saas-admin-api",
+      "saas-dispatch-api",
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.DubboEmployeePicService": {
+    "provider": [
+      "saas-employee-manage"
+    ],
+    "consumer": [
+      "saas-dispatch-api",
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.DubboRiskAppealService": {
+    "provider": [],
+    "consumer": [
+      "saas-appeal",
+      "saas-biz-risk",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboRiskPlanManagementService": {
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-risk-admin-api"
+    ]
+  },
+  "com.huixian.message.dubbo.facade.api.DubboDingTalkChannelService": {
+    "provider": [
+      "message"
+    ],
+    "consumer": [
+      "axcloud-tenant"
+    ]
+  },
+  "com.huixian.payment.dubbo.facade.api.DubboWeiXinAppService": {
+    "provider": [
+      "payment"
+    ],
+    "consumer": [
+      "assistant",
+      "redpack"
+    ]
+  },
+  "com.huixian.saaspayroll.dubbo.facade.api.DubboPayrollPushService": {
+    "provider": [
+      "saas-payroll"
+    ],
+    "consumer": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.activitythirdaccount.dubbo.facade.api.DubboCashDrawService": {
+    "provider": [
+      "activity-third-account"
+    ],
+    "consumer": [
+      "hourly-work",
+      "market-center",
+      "payment",
+      "redpack"
+    ]
+  },
+  "com.huixian.axcloudtechnology.dubbo.facade.api.DubboDnsService": {
+    "provider": [
+      "axcloud-technology"
+    ],
+    "consumer": [
+      "axcloud-tenant"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.DubboInterviewService": {
+    "provider": [
+      "saas-employee-manage"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboTransferService": {
+    "provider": [
+      "saas-trade"
+    ],
+    "consumer": [
+      "saas-dispatch-api",
+      "saas-salary-api"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboMerchantCacheService": {
+    "provider": [
+      "saas-staff-api"
+    ],
+    "consumer": [
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasaccount.dubbo.facade.api.DubboAccountQueryService": {
+    "provider": [
+      "saas-account"
+    ],
+    "consumer": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboQueryPayChannelService": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-salary-api"
+    ]
+  },
+  "com.huixian.saaswebsocket.dubbo.facade.api.DubboNoticeCenterService": {
+    "provider": [
+      "saas-websocket"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.anxinpinwyim.dubbo.facade.api.DubboImService": {
+    "provider": [
+      "anxinpin-wyim"
+    ],
+    "consumer": [
+      "anxinpin-enterprise",
+      "anxinpin-job",
+      "anxinpin-seeker"
+    ]
+  },
+  "com.huixian.saaswallet.dubbo.facade.api.DubboMerchantService": {
+    "provider": [
+      "saas-wallet"
+    ],
+    "consumer": [
+      "check-account",
+      "saas-dispatch-api",
+      "saas-trade"
+    ]
+  },
+  "com.huixian.anxinpinjob.dubbo.facade.api.DubboAdminService": {
+    "provider": [
+      "anxinpin-job"
+    ],
+    "consumer": [
+      "anxinpin-admin"
+    ]
+  },
+  "com.huixian.paycenter.dubbo.facade.api.DubboPaymentService": {
+    "provider": [
+      "pay-center"
+    ],
+    "consumer": [
+      "activity-third-account",
+      "check-account",
+      "redpack",
+      "saas-account",
+      "saas-dispatch-api",
+      "saas-trade"
+    ]
+  },
+  "com.huixian.alpharisk.dubbo.facade.api.DubboRiskEventService": {
+    "provider": [
+      "alpha-risk"
+    ],
+    "consumer": [
+      "redpack"
+    ]
+  },
+  "com.huixian.axcloudpermission.dubbo.facade.api.DubboEmployeeService": {
+    "provider": [
+      "axcloud-permission"
+    ],
+    "consumer": [
+      "axcloud-employee"
+    ]
+  },
+  "com.huixian.saasrecruitcorp.dubbo.facade.api.DubboCorpConfigService": {
+    "provider": [
+      "saas-recruit-corp"
+    ],
+    "consumer": [
+      "saas-admin-api"
+    ]
+  },
+  "com.huixian.saasrecruitjob.dubbo.facade.api.DubboSeekerJobService": {
+    "provider": [
+      "saas-recruit-job"
+    ],
+    "consumer": [
+      "saas-recruit-seeker"
+    ]
+  },
+  "com.huixian.anxinpinjob.dubbo.facade.api.DubboSeekerJobService": {
+    "provider": [
+      "anxinpin-job"
+    ],
+    "consumer": [
+      "anxinpin-seeker"
+    ]
+  },
+  "com.huixian.saasrisk.dubbo.facade.api.DubboAdminRiskApp": {
+    "provider": [
+      "saas-risk"
+    ],
+    "consumer": [
+      "saas-admin-api"
+    ]
+  },
+  "com.huixian.anxinpinoperate.dubbo.facade.api.DubboComplainService": {
+    "provider": [
+      "anxinpin-operate"
+    ],
+    "consumer": [
+      "anxinpin-admin",
+      "anxinpin-seeker"
+    ]
+  },
+  "com.huixian.saasdataextract.dubbo.facade.api.DubboRiskUserService": {
+    "provider": [
+      "saas-data-extract"
+    ],
+    "consumer": [
+      "saas-biz-risk"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboAgencyPaySalaryService": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.saasagency.dubbo.facade.api.DubboDailyMerchantService": {
+    "provider": [
+      "saas-agency"
+    ],
+    "consumer": [
+      "saas-admin-api",
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saaswallet.dubbo.facade.api.DubboCardService": {
+    "provider": [
+      "saas-wallet"
+    ],
+    "consumer": [
+      "saas-trade"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboPushStaffService": {
+    "provider": [
+      "saas-staff-api"
+    ],
+    "consumer": [
+      "saas-advance",
+      "saas-agency",
+      "saas-dispatch-api",
+      "saas-payroll",
+      "saas-salary-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.alpharisk.dubbo.facade.api.DubboFaceIdService": {
+    "provider": [
+      "alpha-risk"
+    ],
+    "consumer": [
+      "saas-biz-risk"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.DubboRiskConfigService": {
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-agency",
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.axUser.dubbo.facade.api.DubboAliUserServiceV2": {
+    "provider": [
+      "user-center"
+    ],
+    "consumer": [
+      "activity-third-account",
+      "hourly-work"
+    ]
+  },
+  "com.huixian.saasmerchant.dubbo.facade.api.DubboMerchantRecordService": {
+    "provider": [
+      "saas-merchant"
+    ],
+    "consumer": [
+      "saas-dispatch-api",
+      "saas-staff-api",
+      "saas-wallet"
+    ]
+  },
+  "com.huixian.saasagency.dubbo.facade.api.DubboAgencyCommonService": {
+    "provider": [
+      "saas-agency"
+    ],
+    "consumer": [
+      "saas-biz-risk",
+      "saas-dispatch-api",
+      "saas-risk-admin-api"
+    ]
+  },
+  "com.huixian.diversionservice.dubbo.facade.api.DubboDiversionService": {
+    "provider": [
+      "diversion-service"
+    ],
+    "consumer": [
+      "jjb-app-service",
+      "market-activity",
+      "member"
+    ]
+  },
+  "com.huixian.payment.dubbo.facade.api.DubboPaymentService": {
+    "provider": [
+      "payment"
+    ],
+    "consumer": [
+      "activity-third-account",
+      "assistant",
+      "redpack",
+      "user-center"
+    ]
+  },
+  "com.huixian.marketcenter.dubbo.facade.api.DubboSignInTaskService": {
+    "provider": [
+      "market-center"
+    ],
+    "consumer": [
+      "activity-third-account"
+    ]
+  },
+  "com.huixian.paycenter.dubbo.facade.api.DubboAccountService": {
+    "provider": [
+      "pay-center"
+    ],
+    "consumer": [
+      "check-account",
+      "saas-admin-api",
+      "saas-wallet"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.DubboInterviewFactoryJobService": {
+    "provider": [
+      "saas-employee-manage"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.paycenter.dubbo.facade.api.DubboNotifyService:saas-wallet": {
+    "provider": [
+      "saas-trade"
+    ],
+    "consumer": [
+      "pay-center"
+    ]
+  },
+  "com.huixian.paycenter.dubbo.facade.api.DubboEBankAccountService": {
+    "provider": [
+      "pay-center"
+    ],
+    "consumer": [
+      "check-account",
+      "saas-admin-api",
+      "saas-wallet"
+    ]
+  },
+  "com.huixian.saasagency.dubbo.facade.api.DubboAgencyDailySummaryRecordService": {
+    "provider": [
+      "saas-agency"
+    ],
+    "consumer": [
+      "saas-biz-risk",
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasrecruitcorp.dubbo.facade.api.DubboGenTokenService": {
+    "provider": [
+      "saas-recruit-corp"
+    ],
+    "consumer": [
+      "saas-recruit-seeker"
+    ]
+  },
+  "com.huixian.saasreportmanager.dubbo.facade.api.DubboDownloadService": {
+    "provider": [
+      "saas-report-manager"
+    ],
+    "consumer": [
+      "saas-advance",
+      "saas-agency",
+      "saas-dispatch-api",
+      "saas-employee-manage",
+      "saas-salary-api"
+    ]
+  },
+  "com.huixian.saasreportmanager.dubbo.facade.api.DubboExcelExportService:employee_salary": {
+    "provider": [
+      "saas-employee-manage"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.adservice.dubbo.facade.api.DubboCommonNoticeService": {
+    "provider": [
+      "ad-service"
+    ],
+    "consumer": [
+      "jjb-app-service"
+    ]
+  },
+  "com.huixian.saasrisklab.dubbo.facade.api.DubboRiskPlanTaskService": {
+    "provider": [
+      "saas-risk-lab"
+    ],
+    "consumer": [
+      "saas-biz-risk"
+    ]
+  },
+  "com.huixian.axUser.dubbo.facade.api.DubboCompanyService": {
+    "provider": [
+      "user-center"
+    ],
+    "consumer": [
+      "java-proxy"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.DubboRiskReviewService": {
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-agency"
+    ]
+  },
+  "com.huixian.saasreportmanager.dubbo.facade.api.DubboExcelExportService:agency-daily-summary-record": {
+    "provider": [
+      "saas-agency"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.saasrisklab.dubbo.facade.api.DubboRiskPlanTaskNotifyService": {
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-risk-lab"
+    ]
+  },
+  "com.huixian.axcloudpermission.dubbo.facade.api.DubboPowerService": {
+    "provider": [
+      "axcloud-permission"
+    ],
+    "consumer": [
+      "axcloud-employee"
+    ]
+  },
+  "com.huixian.geministaffapi.dubbo.facade.api.DubboLogoutService": {
+    "provider": [
+      "gemini-staff-api"
+    ],
+    "consumer": [
+      "saas-admin-api"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboRiskEventResultManagementService": {
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-risk-admin-api"
+    ]
+  },
+  "com.huixian.axcloudtechnology.dubbo.facade.api.DubboTreatyService": {
+    "provider": [
+      "axcloud-technology"
+    ],
+    "consumer": [
+      "axcloud-tenant"
+    ]
+  },
+  "com.huixian.anxinpinenterprise.dubbo.facade.api.DubboJobEnterpriseService": {
+    "provider": [
+      "anxinpin-enterprise"
+    ],
+    "consumer": [
+      "anxinpin-job",
+      "anxinpin-operate"
+    ]
+  },
+  "com.huixian.axUser.dubbo.facade.api.DubboQqUserServiceV2": {
+    "provider": [
+      "user-center"
+    ],
+    "consumer": [
+      "hourly-work"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboRiskFeedbackManagementService": {
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-risk-admin-api"
+    ]
+  },
+  "com.huixian.saaschargemanage.dubbo.facade.api.DubboUserService": {
+    "provider": [
+      "saas-charge-manage"
+    ],
+    "consumer": [
+      "saas-admin-api",
+      "saas-dispatch-api",
+      "saas-employee-manage"
+    ]
+  },
+  "com.huixian.saasagency.dubbo.facade.api.DubboAgencySalaryService": {
+    "provider": [
+      "saas-agency"
+    ],
+    "consumer": [
+      "saas-dispatch-api",
+      "saas-report-manager",
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.geminibossapi.dubbo.facade.api.DubboQuickLogService": {
+    "provider": [
+      "gemini-boss-api"
+    ],
+    "consumer": [
+      "saas-admin-api"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.laborer.DubboLaborerAttendanceService": {
+    "provider": [
+      "saas-employee-manage"
+    ],
+    "consumer": [
+      "saas-daily-wage-api",
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.axcloudad.dubbo.facade.api.DubboAdGlobalBlackAppService": {
+    "provider": [
+      "axcloud-ad"
+    ],
+    "consumer": [
+      "axcloud-tenant"
+    ]
+  },
+  "com.huixian.saasaccount.dubbo.facade.api.DubboAccountService": {
+    "provider": [
+      "saas-account"
+    ],
+    "consumer": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboRiskRegulationManagementService": {
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-risk-admin-api"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboUserAuditOrderService": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-admin-api"
+    ]
+  },
+  "com.huixian.axcloudpermission.dubbo.facade.api.DubboResourceService": {
+    "provider": [
+      "axcloud-permission"
+    ],
+    "consumer": [
+      "axcloud-employee"
+    ]
+  },
+  "com.huixian.saascontract.dubbo.facade.api.DubboMerchantContractService": {
+    "provider": [
+      "saas-contract"
+    ],
+    "consumer": [
+      "saas-admin-api"
+    ]
+  },
+  "com.huixian.anxinpinjob.dubbo.facade.api.DubboEnterpriseJobService": {
+    "provider": [
+      "anxinpin-job"
+    ],
+    "consumer": [
+      "anxinpin-admin",
+      "anxinpin-enterprise",
+      "anxinpin-wyim"
+    ]
+  },
+  "com.huixian.member.dubbo.facade.api.DubboMemBerCashDrawService:activity-third-account-cash-draw": {
+    "provider": [
+      "activity-third-account"
+    ],
+    "consumer": [
+      "member"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboShareService": {
+    "provider": [
+      "saas-staff-api"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.axcloudemployee.dubbo.facade.api.DubboEmployeeIService": {
+    "provider": [
+      "axcloud-employee"
+    ],
+    "consumer": [
+      "axcloud-tenant"
+    ]
+  },
+  "com.huixian.axclouduser.dubbo.facade.api.DubboTenantAppUserService": {
+    "provider": [
+      "axcloud-user"
+    ],
+    "consumer": [
+      "axcloud-employee",
+      "axcloud-tenant"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboTicketVerifyService": {
+    "provider": [
+      "saas-trade"
+    ],
+    "consumer": [
+      "gemini-boss-api",
+      "gemini-staff-api",
+      "saas-agency",
+      "saas-dispatch-api",
+      "saas-salary-api",
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.redpack.dubbo.facade.api.DubboRedPackRechargeService": {
+    "provider": [
+      "redpack"
+    ],
+    "consumer": [
+      "java-proxy",
+      "market-center"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboSyncQueryService": {
+    "provider": [
+      "saas-staff-api"
+    ],
+    "consumer": [
+      "saas-advance",
+      "saas-agency",
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasworkattendanceapi.dubbo.facade.api.DubboCustomerAttendanceReplaceService": {
+    "provider": [
+      "saas-work-attendance-api"
+    ],
+    "consumer": [
+      "saas-agency",
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasrecruitorder.dubbo.facade.api.DubboSeekerOrderService": {
+    "provider": [
+      "saas-recruit-order"
+    ],
+    "consumer": [
+      "saas-recruit-seeker"
+    ]
+  },
+  "com.huixian.saasroute.dubbo.facade.api.DubboRouteMerchantShuntService": {
+    "provider": [
+      "saas-route"
+    ],
+    "consumer": [
+      "saas-technology"
+    ]
+  },
+  "com.huixian.saassalaryapi.dubbo.facade.api.DubboSalaryDeductService": {
+    "provider": [
+      "saas-salary-api"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboTicketService": {
+    "provider": [
+      "saas-trade"
+    ],
+    "consumer": [
+      "gemini-boss-api",
+      "saas-advance",
+      "saas-agency",
+      "saas-daily-wage-api",
+      "saas-dispatch-api",
+      "saas-salary-api"
+    ]
+  },
+  "com.huixian.marketcenter.dubbo.facade.api.DubboSmallCashService": {
+    "provider": [
+      "market-center"
+    ],
+    "consumer": [
+      "activity-third-account"
+    ]
+  },
+  "com.huixian.saasmerchant.dubbo.facade.api.DubboMiniProgramCallbackService": {
+    "provider": [
+      "saas-merchant"
+    ],
+    "consumer": [
+      "saas-admin-api"
+    ]
+  },
+  "com.huixian.anxinpinseeker.dubbo.facade.api.DubboSeekerService": {
+    "provider": [
+      "anxinpin-seeker"
+    ],
+    "consumer": [
+      "anxinpin-enterprise",
+      "anxinpin-job",
+      "user-center"
+    ]
+  },
+  "com.huixian.saaswallet.dubbo.facade.api.DubboAccountService": {
+    "provider": [
+      "saas-wallet"
+    ],
+    "consumer": [
+      "check-account",
+      "gemini-boss-api",
+      "gemini-staff-api",
+      "saas-advance",
+      "saas-agency",
+      "saas-daily-wage-api",
+      "saas-dispatch-api",
+      "saas-factoring",
+      "saas-salary-api",
+      "saas-staff-api",
+      "saas-trade"
+    ]
+  },
+  "com.huixian.alpharisk.dubbo.facade.api.DubboAliVerifyService": {
+    "provider": [
+      "alpha-risk"
+    ],
+    "consumer": [
+      "gemini-staff-api",
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasmerchant.dubbo.facade.api.DubboMiniProgramConfigService": {
+    "provider": [
+      "saas-merchant"
+    ],
+    "consumer": [
+      "saas-admin-api"
+    ]
+  },
+  "com.huixian.saasreportmanager.dubbo.facade.api.DubboExcelExportService:daily-salary-summary-record": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.saasdailywageapi.dubbo.facade.api.DubboDailyAuditService": {
+    "provider": [
+      "saas-daily-wage-api"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.axUser.dubbo.facade.api.DubboTokenService": {
+    "provider": [
+      "user-center"
+    ],
+    "consumer": [
+      "java-proxy"
+    ]
+  },
+  "com.huixian.axUser.dubbo.facade.api.DubboWxUserService": {
+    "provider": [
+      "user-center"
+    ],
+    "consumer": [
+      "activity-third-account",
+      "java-proxy",
+      "redpack"
+    ]
+  },
+  "com.huixian.saasenterprise.dubbo.facade.api.DubboNoticeService": {
+    "provider": [
+      "saas-enterprise"
+    ],
+    "consumer": [
+      "gemini-boss-api",
+      "gemini-staff-api"
+    ]
+  },
+  "com.huixian.saasfactoring.dubbo.facade.api.DubboDispatchService": {
+    "provider": [
+      "saas-factoring"
+    ],
+    "consumer": [
+      "saas-dispatch-api",
+      "saas-salary-api"
+    ]
+  },
+  "com.huixian.message.dubbo.facade.api.DubboGlobalSmsChannelService": {
+    "provider": [
+      "message"
+    ],
+    "consumer": [
+      "axcloud-tenant"
+    ]
+  },
+  "com.huixian.saasenterprise.dubbo.facade.api.DubboEnterpriseService": {
+    "provider": [
+      "saas-enterprise"
+    ],
+    "consumer": [
+      "gemini-boss-api",
+      "gemini-staff-api",
+      "saas-admin-api"
+    ]
+  },
+  "com.huixian.saasreportmanager.dubbo.facade.api.DubboExcelExportService:daily-salary-incumbent": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.saasenterprise.dubbo.facade.api.DubboEnterpriseUserService": {
+    "provider": [
+      "saas-enterprise"
+    ],
+    "consumer": [
+      "gemini-boss-api",
+      "gemini-staff-api",
+      "saas-admin-api"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.DubboFaceIdService": {
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.assistant.dubbo.facade.api.DubboSmsService": {
+    "provider": [
+      "assistant"
+    ],
+    "consumer": [
+      "java-proxy",
+      "message",
+      "redpack",
+      "user-center"
+    ]
+  },
+  "com.huixian.saasdispatchpermission.dubbo.facade.api.DubboRoleService": {
+    "provider": [
+      "saas-dispatch-permission"
+    ],
+    "consumer": [
+      "saas-advance",
+      "saas-dispatch-api",
+      "saas-employee-manage",
+      "saas-salary-api"
+    ]
+  },
+  "com.huixian.marketcenter.dubbo.facade.api.DubboNormalTaskService": {
+    "provider": [
+      "market-center"
+    ],
+    "consumer": [
+      "anxingou",
+      "hourly-work",
+      "piece-work"
+    ]
+  },
+  "com.huixian.saasrecruitjob.dubbo.facade.api.DubboCorpTagService": {
+    "provider": [
+      "saas-recruit-job"
+    ],
+    "consumer": [
+      "saas-recruit-corp"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.DubboReportService": {
+    "provider": [
+      "saas-employee-manage"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasdailywageapi.dubbo.facade.api.DubboDailyModelService": {
+    "provider": [
+      "saas-daily-wage-api"
+    ],
+    "consumer": [
+      "saas-dispatch-api",
+      "saas-employee-manage",
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.DubboRiskFeedbackService": {
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.paycenter.dubbo.facade.api.DubboPinganAccountService": {
+    "provider": [],
+    "consumer": [
+      "check-account",
+      "pay-center",
+      "saas-admin-api",
+      "saas-wallet"
+    ]
+  },
+  "com.huixian.saasstandardfactoryapi.dubbo.facade.api.DubboMerchantFactoryService": {
+    "provider": [
+      "saas-standard-factory-api"
+    ],
+    "consumer": [
+      "saas-daily-wage-api",
+      "saas-dispatch-api",
+      "saas-employee-manage",
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasrecruitjob.dubbo.facade.api.DubboCorpJobService": {
+    "provider": [
+      "saas-recruit-job"
+    ],
+    "consumer": [
+      "saas-recruit-corp"
+    ]
+  },
+  "com.huixian.saasdataextract.dubbo.facade.api.DubboRiskDeviceService": {
+    "provider": [
+      "saas-data-extract"
+    ],
+    "consumer": [
+      "saas-biz-risk"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboAgencyService": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "payment"
+    ]
+  },
+  "com.huixian.saasrecruitorder.dubbo.facade.api.DubboCorpOrderService": {
+    "provider": [
+      "saas-recruit-order"
+    ],
+    "consumer": [
+      "saas-recruit-corp"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboAccountQueryService": {
+    "provider": [
+      "saas-trade"
+    ],
+    "consumer": [
+      "gemini-boss-api",
+      "saas-dispatch-api",
+      "saas-salary-api",
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.activitythirdaccount.dubbo.facade.api.DubboHFRechargeService": {
+    "provider": [
+      "activity-third-account"
+    ],
+    "consumer": [
+      "market-center"
+    ]
+  },
+  "com.huixian.axcloudad.dubbo.facade.api.DubboAdPlanService": {
+    "provider": [
+      "axcloud-ad"
+    ],
+    "consumer": [
+      "axcloud-tenant"
+    ]
+  },
+  "com.huixian.paycenter.dubbo.facade.api.DubboNotifyService:saas-dispatch": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "pay-center"
+    ]
+  },
+  "com.huixian.checkaccount.dubbo.facade.api.DubboCheckJobService": {
+    "provider": [
+      "check-account"
+    ],
+    "consumer": [
+      "saas-wallet"
+    ]
+  },
+  "com.huixian.axcloudad.dubbo.facade.api.DubboAdPositionService": {
+    "provider": [
+      "axcloud-ad"
+    ],
+    "consumer": [
+      "axcloud-tenant"
+    ]
+  },
+  "com.huixian.saasworkattendanceapi.dubbo.facade.api.DubboCustomerAttendanceService": {
+    "provider": [
+      "saas-work-attendance-api"
+    ],
+    "consumer": [
+      "saas-agency",
+      "saas-data-extract",
+      "saas-dispatch-api",
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasrecruitseeker.dubbo.facade.api.DubboOrderSeekerService": {
+    "provider": [
+      "saas-recruit-seeker"
+    ],
+    "consumer": [
+      "saas-recruit-corp",
+      "saas-recruit-order"
+    ]
+  },
+  "com.huixian.axcloudemployee.dubbo.facade.api.DubboPowerIService": {
+    "provider": [
+      "axcloud-employee"
+    ],
+    "consumer": [
+      "axcloud-tenant"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.DubboRiskResultService": {
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-agency",
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboDrawService": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-admin-api"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.laborer.DubboLaborerModelService": {
+    "provider": [
+      "saas-employee-manage"
+    ],
+    "consumer": [
+      "saas-daily-wage-api"
+    ]
+  },
+  "com.huixian.saasagency.dubbo.facade.api.DubboAgencyDailyAttendanceService": {
+    "provider": [
+      "saas-agency"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.redpack.dubbo.facade.api.DubboRedPackServiceV2": {
+    "provider": [
+      "redpack"
+    ],
+    "consumer": [
+      "activity-third-account",
+      "market-center"
+    ]
+  },
+  "com.huixian.activitythirdaccount.dubbo.facade.api.DubboAnXinGouService": {
+    "provider": [
+      "activity-third-account"
+    ],
+    "consumer": [
+      "anxingou"
+    ]
+  },
+  "com.huixian.anxinpinjob.dubbo.facade.api.DubboSeekerJobV2Service": {
+    "provider": [
+      "anxinpin-job"
+    ],
+    "consumer": [
+      "anxinpin-operate",
+      "anxinpin-seeker"
+    ]
+  },
+  "com.huixian.axcloudtenant.dubbo.facade.api.DubboTenantAppVersionService": {
+    "provider": [
+      "axcloud-tenant"
+    ],
+    "consumer": [
+      "axcloud-ad"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboStaffInformService": {
+    "provider": [
+      "saas-staff-api"
+    ],
+    "consumer": [
+      "saas-agency",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboMerchantNoticeService": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.marketcenter.dubbo.facade.api.DubboDialActivityService": {
+    "provider": [
+      "market-center"
+    ],
+    "consumer": [
+      "hourly-work"
+    ]
+  },
+  "com.huixian.member.dubbo.facade.api.DubboMemberCenterService": {
+    "provider": [
+      "member"
+    ],
+    "consumer": [
+      "hourly-work",
+      "market-activity",
+      "piece-work"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.laborer.DubboLaborerInfoService": {
+    "provider": [
+      "saas-employee-manage"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.axUser.dubbo.facade.api.DubboQqUserService": {
+    "provider": [
+      "user-center"
+    ],
+    "consumer": [
+      "java-proxy"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboDictFactoryService": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-advance",
+      "saas-contract",
+      "saas-factoring",
+      "saas-report-manager",
+      "saas-salary-api",
+      "saas-staff-api",
+      "saas-standard-factory-api"
+    ]
+  },
+  "com.huixian.saasreportmanager.dubbo.facade.api.DubboExcelExportService:agency-daily-incumbent": {
+    "provider": [
+      "saas-agency"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.message.dubbo.facade.api.DubboDingTalkTemplateService": {
+    "provider": [
+      "message"
+    ],
+    "consumer": [
+      "axcloud-tenant"
+    ]
+  },
+  "com.huixian.saasreportmanager.dubbo.facade.api.DubboExcelExportService:employee_interview": {
+    "provider": [
+      "saas-employee-manage"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.datacenter.dubbo.facade.api.DubboDataDialUserTagService": {
+    "provider": [
+      "data-center"
+    ],
+    "consumer": [
+      "market-center"
+    ]
+  },
+  "com.huixian.saasworkattendanceapi.dubbo.facade.api.DubboAttendanceService": {
+    "provider": [
+      "saas-work-attendance-api"
+    ],
+    "consumer": [
+      "saas-daily-wage-api",
+      "saas-dispatch-api",
+      "saas-employee-manage",
+      "saas-staff-api",
+      "saas-standard-factory-api"
+    ]
+  },
+  "com.huixian.activitythirdaccount.dubbo.facade.api.DubboDuibaLogin": {
+    "provider": [
+      "activity-third-account"
+    ],
+    "consumer": [
+      "hourly-work",
+      "piece-work"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.laborer.DubboLaborerQueryService": {
+    "provider": [
+      "saas-employee-manage"
+    ],
+    "consumer": [
+      "saas-daily-wage-api",
+      "saas-dispatch-api",
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.datacenter.dubbo.facade.api.DubboUserTagService": {
+    "provider": [
+      "data-center"
+    ],
+    "consumer": [
+      "ad-service",
+      "market-center",
+      "user-profile"
+    ]
+  },
+  "com.huixian.message.dubbo.facade.api.DubboVerifyCodeSmsService": {
+    "provider": [
+      "message"
+    ],
+    "consumer": [
+      "anxinpin-enterprise",
+      "anxinpin-seeker",
+      "gemini-boss-api",
+      "gemini-staff-api",
+      "saas-advance",
+      "saas-contract",
+      "saas-daily-wage-api",
+      "saas-dispatch-api",
+      "saas-employee-manage",
+      "saas-factoring",
+      "saas-payroll",
+      "saas-salary-api",
+      "saas-staff-api",
+      "saas-third-party",
+      "user-center"
+    ]
+  },
+  "com.huixian.saasreportmanager.dubbo.facade.api.DubboExcelExportService:daily-salary-wait-audit": {
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.anxingou.dubbo.facade.api.admin.DubboWuyuanInstationItemManagementService": {
+    "provider": [
+      "anxingou"
+    ],
+    "consumer": [
+      "anxingou-admin-server"
+    ]
+  },
+  "com.huixian.saaspayroll.dubbo.facade.api.DubboAgencyPayrollService": {
+    "provider": [
+      "saas-payroll"
+    ],
+    "consumer": [
+      "saas-agency"
+    ]
+  }
+}

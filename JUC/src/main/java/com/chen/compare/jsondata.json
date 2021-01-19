@@ -1,0 +1,1497 @@
+{
+  "nodes": [
+    {
+      "x": 400,
+      "y": 200,
+      "id": "saas-payroll"
+    },
+    {
+      "x": 500,
+      "y": 200,
+      "id": "saas-daily-wage-api"
+    },
+    {
+      "x": 700,
+      "y": 200,
+      "id": "saas-recruit-seeker"
+    },
+    {
+      "x": 800,
+      "y": 200,
+      "id": "saas-recruit-corp"
+    },
+    {
+      "x": 700,
+      "y": 300,
+      "id": "saas-recruit-order"
+    },
+    {
+      "x": 1000,
+      "y": 200,
+      "id": "saas-contract"
+    },
+    {
+      "x": 1100,
+      "y": 200,
+      "id": "saas-employee-manage"
+    },
+    {
+      "x": 1300,
+      "y": 200,
+      "id": "saas-work-attendance-api"
+    },
+    {
+      "x": 1500,
+      "y": 200,
+      "id": "saas-dispatch-api"
+    },
+    {
+      "x": 1600,
+      "y": 200,
+      "id": "saas-factoring"
+    },
+    {
+      "x": 1700,
+      "y": 200,
+      "id": "saas-salary-api"
+    },
+    {
+      "x": 1800,
+      "y": 200,
+      "id": "saas-trade"
+    },
+    {
+      "x": 1500,
+      "y": 300,
+      "id": "saas-advance"
+    },
+    {
+      "x": 1600,
+      "y": 300,
+      "id": "saas-wallet"
+    },
+    {
+      "x": 1700,
+      "y": 300,
+      "id": "saas-account"
+    },
+    {
+      "x": 400,
+      "y": 200,
+      "id": "saas-data-extract"
+    },
+    {
+      "x": 500,
+      "y": 200,
+      "id": "saas-risk"
+    },
+    {
+      "x": 600,
+      "y": 200,
+      "id": "saas-risk-lab"
+    },
+    {
+      "x": 700,
+      "y": 200,
+      "id": "saas-admin-api"
+    },
+    {
+      "x": 800,
+      "y": 200,
+      "id": "saas-third-party"
+    },
+    {
+      "x": 900,
+      "y": 200,
+      "id": "saas-risk-admin-api"
+    },
+    {
+      "x": 400,
+      "y": 300,
+      "id": "saas-agency"
+    },
+    {
+      "x": 500,
+      "y": 300,
+      "id": "saas-charge-manage"
+    },
+    {
+      "x": 600,
+      "y": 300,
+      "id": "saas-biz-risk"
+    },
+    {
+      "x": 700,
+      "y": 300,
+      "id": "saas-technology"
+    },
+    {
+      "x": 1100,
+      "y": 200,
+      "id": "saas-staff-api"
+    },
+    {
+      "x": 1200,
+      "y": 200,
+      "id": "saas-report-manager"
+    },
+    {
+      "x": 1300,
+      "y": 200,
+      "id": "saas-standard-factory-api"
+    },
+    {
+      "x": 1400,
+      "y": 200,
+      "id": "saas-dispatch-permission"
+    },
+    {
+      "x": 1100,
+      "y": 300,
+      "id": "saas-appeal"
+    },
+    {
+      "x": 1200,
+      "y": 300,
+      "id": "saas-merchant"
+    },
+    {
+      "x": 400,
+      "y": 200,
+      "id": "check-account"
+    },
+    {
+      "x": 500,
+      "y": 200,
+      "id": "alpha-risk"
+    },
+    {
+      "x": 400,
+      "y": 200,
+      "id": "anxinpin-wyim"
+    },
+    {
+      "x": 500,
+      "y": 200,
+      "id": "anxinpin-enterprise"
+    },
+    {
+      "x": 600,
+      "y": 200,
+      "id": "anxinpin-admin"
+    },
+    {
+      "x": 700,
+      "y": 200,
+      "id": "anxinpin-seeker"
+    },
+    {
+      "x": 400,
+      "y": 300,
+      "id": "anxinpin-job"
+    },
+    {
+      "x": 500,
+      "y": 300,
+      "id": "anxinpin-operate"
+    },
+    {
+      "x": 900,
+      "y": 200,
+      "id": "integrated-work"
+    },
+    {
+      "x": 1000,
+      "y": 200,
+      "id": "hourly-work"
+    },
+    {
+      "x": 1100,
+      "y": 200,
+      "id": "jjb-app-service"
+    },
+    {
+      "x": 900,
+      "y": 300,
+      "id": "piece-work"
+    },
+    {
+      "x": 1300,
+      "y": 200,
+      "id": "market-center"
+    },
+    {
+      "x": 1400,
+      "y": 200,
+      "id": "market-gateway"
+    },
+    {
+      "x": 1500,
+      "y": 200,
+      "id": "user-center"
+    },
+    {
+      "x": 1600,
+      "y": 200,
+      "id": "activity-third-account"
+    },
+    {
+      "x": 1300,
+      "y": 300,
+      "id": "user-growth"
+    },
+    {
+      "x": 1400,
+      "y": 300,
+      "id": "lottery-api"
+    },
+    {
+      "x": 1800,
+      "y": 200,
+      "id": "ad-service"
+    },
+    {
+      "x": 2000,
+      "y": 200,
+      "id": "member"
+    },
+    {
+      "x": 2200,
+      "y": 200,
+      "id": "anxingou-admin-server"
+    },
+    {
+      "x": 2300,
+      "y": 200,
+      "id": "anxingou"
+    },
+    {
+      "x": 400,
+      "y": 200,
+      "id": "axcloud-ad"
+    },
+    {
+      "x": 500,
+      "y": 200,
+      "id": "axcloud-employee"
+    },
+    {
+      "x": 400,
+      "y": 300,
+      "id": "axcloud-tenant"
+    },
+    {
+      "x": 700,
+      "y": 200,
+      "id": "sso-login-api"
+    },
+    {
+      "x": 800,
+      "y": 200,
+      "id": "sso-admin-api"
+    },
+    {
+      "x": 400,
+      "y": 200,
+      "id": "java-proxy"
+    },
+    {
+      "x": 500,
+      "y": 200,
+      "id": "assistant"
+    },
+    {
+      "x": 600,
+      "y": 200,
+      "id": "payment"
+    },
+    {
+      "x": 400,
+      "y": 300,
+      "id": "push"
+    },
+    {
+      "x": 500,
+      "y": 300,
+      "id": "redpack"
+    },
+    {
+      "x": 800,
+      "y": 200,
+      "id": "push-plus"
+    },
+    {
+      "x": 900,
+      "y": 200,
+      "id": "pay-center"
+    },
+    {
+      "x": 800,
+      "y": 300,
+      "id": "message"
+    },
+    {
+      "x": 1100,
+      "y": 200,
+      "id": "user-profile"
+    }
+  ],
+  "edges": [
+    {
+      "source": "",
+      "target": "market-center"
+    },
+    {
+      "source": "check-account",
+      "target": "saas-trade"
+    },
+    {
+      "source": "anxinpin-admin",
+      "target": "anxinpin-job"
+    },
+    {
+      "source": "anxinpin-enterprise",
+      "target": "anxinpin-job"
+    },
+    {
+      "source": "user-growth",
+      "target": "market-center"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "saas-advance"
+    },
+    {
+      "source": "saas-admin-api",
+      "target": "saas-staff-api"
+    },
+    {
+      "source": "anxinpin-admin",
+      "target": "anxinpin-operate"
+    },
+    {
+      "source": "anxinpin-seeker",
+      "target": "anxinpin-operate"
+    },
+    {
+      "source": "saas-factoring",
+      "target": "saas-dispatch-api"
+    },
+    {
+      "source": "saas-recruit-seeker",
+      "target": "saas-recruit-market"
+    },
+    {
+      "source": "",
+      "target": "saas-dispatch-api"
+    },
+    {
+      "source": "saas-recruit-corp",
+      "target": "saas-recruit-market"
+    },
+    {
+      "source": "hourly-work",
+      "target": "market-center"
+    },
+    {
+      "source": "saas-admin-api",
+      "target": "saas-recruit-corp"
+    },
+    {
+      "source": "saas-factoring",
+      "target": "saas-salary-api"
+    },
+    {
+      "source": "saas-trade",
+      "target": "saas-salary-api"
+    },
+    {
+      "source": "saas-merchant",
+      "target": "saas-wallet"
+    },
+    {
+      "source": "saas-trade",
+      "target": "saas-wallet"
+    },
+    {
+      "source": "saas-staff-api",
+      "target": "saas-salary-api"
+    },
+    {
+      "source": "saas-biz-risk",
+      "target": "saas-risk-lab"
+    },
+    {
+      "source": "hourly-work",
+      "target": "ad-service"
+    },
+    {
+      "source": "integrated-work",
+      "target": "ad-service"
+    },
+    {
+      "source": "saas-admin-api",
+      "target": ""
+    },
+    {
+      "source": "saas-advance",
+      "target": "saas-merchant"
+    },
+    {
+      "source": "saas-agency",
+      "target": "saas-merchant"
+    },
+    {
+      "source": "saas-contract",
+      "target": "saas-merchant"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "saas-merchant"
+    },
+    {
+      "source": "saas-employee-manage",
+      "target": "saas-merchant"
+    },
+    {
+      "source": "saas-payroll",
+      "target": "saas-merchant"
+    },
+    {
+      "source": "saas-salary-api",
+      "target": "saas-merchant"
+    },
+    {
+      "source": "saas-staff-api",
+      "target": "saas-merchant"
+    },
+    {
+      "source": "hourly-work",
+      "target": "member"
+    },
+    {
+      "source": "piece-work",
+      "target": "member"
+    },
+    {
+      "source": "assistant",
+      "target": "payment"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "saas-employee-manage"
+    },
+    {
+      "source": "saas-report-manager",
+      "target": "saas-salary-api"
+    },
+    {
+      "source": "saas-staff-api",
+      "target": "saas-risk"
+    },
+    {
+      "source": "saas-work-attendance-api",
+      "target": "saas-risk"
+    },
+    {
+      "source": "anxinpin-admin",
+      "target": "anxinpin-enterprise"
+    },
+    {
+      "source": "anxinpin-job",
+      "target": "anxinpin-enterprise"
+    },
+    {
+      "source": "anxinpin-wyim",
+      "target": "anxinpin-enterprise"
+    },
+    {
+      "source": "activity-third-account",
+      "target": "user-center"
+    },
+    {
+      "source": "java-proxy",
+      "target": "user-center"
+    },
+    {
+      "source": "redpack",
+      "target": "user-center"
+    },
+    {
+      "source": "saas-recruit-corp",
+      "target": "saas-recruit-order"
+    },
+    {
+      "source": "saas-admin-api",
+      "target": "saas-trade"
+    },
+    {
+      "source": "saas-agency",
+      "target": "saas-trade"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "saas-trade"
+    },
+    {
+      "source": "saas-salary-api",
+      "target": "saas-trade"
+    },
+    {
+      "source": "anxingou",
+      "target": "data-center"
+    },
+    {
+      "source": "anxinpin-enterprise",
+      "target": "data-center"
+    },
+    {
+      "source": "anxinpin-job",
+      "target": "data-center"
+    },
+    {
+      "source": "java-proxy",
+      "target": "data-center"
+    },
+    {
+      "source": "message",
+      "target": "data-center"
+    },
+    {
+      "source": "push",
+      "target": "data-center"
+    },
+    {
+      "source": "push-plus",
+      "target": "data-center"
+    },
+    {
+      "source": "user-profile",
+      "target": "data-center"
+    },
+    {
+      "source": "saas-daily-wage-api",
+      "target": "saas-employee-manage"
+    },
+    {
+      "source": "saas-staff-api",
+      "target": "saas-employee-manage"
+    },
+    {
+      "source": "saas-work-attendance-api",
+      "target": "saas-employee-manage"
+    },
+    {
+      "source": "ad-service",
+      "target": "market-center"
+    },
+    {
+      "source": "saas-report-manager",
+      "target": "saas-dispatch-api"
+    },
+    {
+      "source": "",
+      "target": "saas-staff-api"
+    },
+    {
+      "source": "saas-staff-api",
+      "target": "saas-contract"
+    },
+    {
+      "source": "",
+      "target": "saas-merchant"
+    },
+    {
+      "source": "activity-third-account",
+      "target": "market-center"
+    },
+    {
+      "source": "axcloud-tenant",
+      "target": "axcloud-ad"
+    },
+    {
+      "source": "anxinpin-admin",
+      "target": "anxinpin-enterprise"
+    },
+    {
+      "source": "axcloud-employee",
+      "target": "axcloud-permission"
+    },
+    {
+      "source": "saas-agency",
+      "target": "saas-work-attendance-api"
+    },
+    {
+      "source": "saas-staff-api",
+      "target": "saas-work-attendance-api"
+    },
+    {
+      "source": "java-proxy",
+      "target": "push"
+    },
+    {
+      "source": "user-center",
+      "target": ""
+    },
+    {
+      "source": "java-proxy",
+      "target": ""
+    },
+    {
+      "source": "market-center",
+      "target": "user-growth"
+    },
+    {
+      "source": "java-proxy",
+      "target": "redpack"
+    },
+    {
+      "source": "payment",
+      "target": "redpack"
+    },
+    {
+      "source": "axcloud-tenant",
+      "target": "axcloud-employee"
+    },
+    {
+      "source": "anxingou-admin-server",
+      "target": "anxingou"
+    },
+    {
+      "source": "",
+      "target": "axcloud-wechat-center"
+    },
+    {
+      "source": "saas-admin-api",
+      "target": "saas-charge-manage"
+    },
+    {
+      "source": "saas-admin-api",
+      "target": "saas-merchant"
+    },
+    {
+      "source": "",
+      "target": "member"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "saas-advance"
+    },
+    {
+      "source": "saas-report-manager",
+      "target": "saas-advance"
+    },
+    {
+      "source": "saas-staff-api",
+      "target": "saas-advance"
+    },
+    {
+      "source": "saas-report-manager",
+      "target": "saas-agency"
+    },
+    {
+      "source": "hourly-work",
+      "target": "user-center"
+    },
+    {
+      "source": "integrated-work",
+      "target": "user-center"
+    },
+    {
+      "source": "market-activity",
+      "target": "user-center"
+    },
+    {
+      "source": "",
+      "target": "saas-agency"
+    },
+    {
+      "source": "market-center",
+      "target": "ad-service"
+    },
+    {
+      "source": "saas-admin-api",
+      "target": "saas-factoring"
+    },
+    {
+      "source": "saas-wallet",
+      "target": "saas-factoring"
+    },
+    {
+      "source": "",
+      "target": "saas-daily-wage-api"
+    },
+    {
+      "source": "saas-staff-api",
+      "target": "saas-daily-wage-api"
+    },
+    {
+      "source": "saas-work-attendance-api",
+      "target": "saas-daily-wage-api"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "payment"
+    },
+    {
+      "source": "",
+      "target": "alpha-risk"
+    },
+    {
+      "source": "ad-service",
+      "target": ""
+    },
+    {
+      "source": "gemini-boss-api",
+      "target": "saas-user"
+    },
+    {
+      "source": "gemini-staff-api",
+      "target": "saas-user"
+    },
+    {
+      "source": "saas-admin-api",
+      "target": "saas-user"
+    },
+    {
+      "source": "saas-admin-api",
+      "target": "saas-wallet"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "saas-wallet"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "saas-admin-api"
+    },
+    {
+      "source": "saas-biz-risk",
+      "target": "saas-agency"
+    },
+    {
+      "source": "saas-risk-admin-api",
+      "target": "saas-agency"
+    },
+    {
+      "source": "alpha-risk",
+      "target": "user-profile"
+    },
+    {
+      "source": "java-proxy",
+      "target": "user-profile"
+    },
+    {
+      "source": "redpack",
+      "target": "user-profile"
+    },
+    {
+      "source": "saas-appeal",
+      "target": ""
+    },
+    {
+      "source": "saas-work-attendance-api",
+      "target": ""
+    },
+    {
+      "source": "saas-staff-api",
+      "target": "saas-trade"
+    },
+    {
+      "source": "",
+      "target": "saas-account"
+    },
+    {
+      "source": "saas-admin-api",
+      "target": "saas-dispatch-api"
+    },
+    {
+      "source": "saas-advance",
+      "target": "saas-dispatch-api"
+    },
+    {
+      "source": "saas-charge-manage",
+      "target": "saas-dispatch-api"
+    },
+    {
+      "source": "saas-contract",
+      "target": "saas-dispatch-api"
+    },
+    {
+      "source": "saas-dispatch-permission",
+      "target": "saas-dispatch-api"
+    },
+    {
+      "source": "saas-employee-manage",
+      "target": "saas-dispatch-api"
+    },
+    {
+      "source": "saas-salary-api",
+      "target": "saas-dispatch-api"
+    },
+    {
+      "source": "saas-staff-api",
+      "target": "saas-dispatch-api"
+    },
+    {
+      "source": "saas-technology",
+      "target": "saas-dispatch-api"
+    },
+    {
+      "source": "",
+      "target": "saas-payroll"
+    },
+    {
+      "source": "market-center",
+      "target": "lottery-api"
+    },
+    {
+      "source": "saas-agency",
+      "target": "saas-staff-api"
+    },
+    {
+      "source": "saas-work-attendance-api",
+      "target": "saas-staff-api"
+    },
+    {
+      "source": "sso-admin-api",
+      "target": "sso-login-api"
+    },
+    {
+      "source": "saas-recruit-corp",
+      "target": "saas-recruit-seeker"
+    },
+    {
+      "source": "market-activity",
+      "target": "ad-service"
+    },
+    {
+      "source": "saas-report-manager",
+      "target": "saas-employee-manage"
+    },
+    {
+      "source": "",
+      "target": "redpack"
+    },
+    {
+      "source": "java-proxy",
+      "target": "redpack"
+    },
+    {
+      "source": "user-center",
+      "target": "redpack"
+    },
+    {
+      "source": "saas-employee-manage",
+      "target": "alpha-risk"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "saas-staff-api"
+    },
+    {
+      "source": "payment",
+      "target": ""
+    },
+    {
+      "source": "saas-staff-api",
+      "target": "saas-agency"
+    },
+    {
+      "source": "saas-work-attendance-api",
+      "target": "saas-agency"
+    },
+    {
+      "source": "",
+      "target": "saas-salary-api"
+    },
+    {
+      "source": "saas-risk-admin-api",
+      "target": "saas-biz-risk"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "saas-employee-im"
+    },
+    {
+      "source": "saas-staff-api",
+      "target": "saas-employee-im"
+    },
+    {
+      "source": "sso-login-api",
+      "target": "sso-admin-api"
+    },
+    {
+      "source": "gemini-staff-api",
+      "target": "alpha-risk"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "alpha-risk"
+    },
+    {
+      "source": "saas-staff-api",
+      "target": "alpha-risk"
+    },
+    {
+      "source": "anxinpin-seeker",
+      "target": "anxinpin-job"
+    },
+    {
+      "source": "",
+      "target": "activity-third-account"
+    },
+    {
+      "source": "activity-third-account",
+      "target": "member"
+    },
+    {
+      "source": "ad-service",
+      "target": "member"
+    },
+    {
+      "source": "market-activity",
+      "target": "member"
+    },
+    {
+      "source": "market-center",
+      "target": "member"
+    },
+    {
+      "source": "user-growth",
+      "target": "member"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "saas-merchant"
+    },
+    {
+      "source": "saas-agency",
+      "target": "saas-staff-api"
+    },
+    {
+      "source": "gemini-boss-api",
+      "target": "saas-enterprise"
+    },
+    {
+      "source": "",
+      "target": "saas-appeal"
+    },
+    {
+      "source": "axcloud-tenant",
+      "target": "message"
+    },
+    {
+      "source": "anxingou",
+      "target": "user-center"
+    },
+    {
+      "source": "hourly-work",
+      "target": "activity-third-account"
+    },
+    {
+      "source": "lottery-api",
+      "target": "activity-third-account"
+    },
+    {
+      "source": "market-center",
+      "target": "activity-third-account"
+    },
+    {
+      "source": "redpack",
+      "target": "activity-third-account"
+    },
+    {
+      "source": "user-growth",
+      "target": "activity-third-account"
+    },
+    {
+      "source": "saas-admin-api",
+      "target": "saas-charge-manage"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "saas-charge-manage"
+    },
+    {
+      "source": "saas-employee-manage",
+      "target": "saas-charge-manage"
+    },
+    {
+      "source": "saas-risk-lab",
+      "target": "saas-biz-risk"
+    },
+    {
+      "source": "saas-daily-wage-api",
+      "target": "saas-standard-factory-api"
+    },
+    {
+      "source": "saas-staff-api",
+      "target": "saas-standard-factory-api"
+    },
+    {
+      "source": "saas-work-attendance-api",
+      "target": "saas-standard-factory-api"
+    },
+    {
+      "source": "gemini-staff-api",
+      "target": "saas-trade"
+    },
+    {
+      "source": "hourly-work",
+      "target": "user-center"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "saas-employee-manage"
+    },
+    {
+      "source": "saas-merchant",
+      "target": "saas-employee-manage"
+    },
+    {
+      "source": "",
+      "target": "anxingou"
+    },
+    {
+      "source": "gemini-boss-api",
+      "target": "saas-enterprise"
+    },
+    {
+      "source": "gemini-staff-api",
+      "target": "saas-enterprise"
+    },
+    {
+      "source": "saas-admin-api",
+      "target": "saas-route"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "saas-route"
+    },
+    {
+      "source": "saas-staff-api",
+      "target": "saas-route"
+    },
+    {
+      "source": "assistant",
+      "target": "payment"
+    },
+    {
+      "source": "redpack",
+      "target": "payment"
+    },
+    {
+      "source": "saas-staff-api",
+      "target": "saas-payroll"
+    },
+    {
+      "source": "",
+      "target": "gemini-staff-api"
+    },
+    {
+      "source": "axcloud-tenant",
+      "target": "axcloud-technology"
+    },
+    {
+      "source": "saas-staff-api",
+      "target": "saas-account"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "saas-websocket"
+    },
+    {
+      "source": "anxinpin-enterprise",
+      "target": "anxinpin-wyim"
+    },
+    {
+      "source": "anxinpin-job",
+      "target": "anxinpin-wyim"
+    },
+    {
+      "source": "anxinpin-seeker",
+      "target": "anxinpin-wyim"
+    },
+    {
+      "source": "anxinpin-admin",
+      "target": "anxinpin-job"
+    },
+    {
+      "source": "activity-third-account",
+      "target": "pay-center"
+    },
+    {
+      "source": "check-account",
+      "target": "pay-center"
+    },
+    {
+      "source": "redpack",
+      "target": "pay-center"
+    },
+    {
+      "source": "saas-account",
+      "target": "pay-center"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "pay-center"
+    },
+    {
+      "source": "saas-trade",
+      "target": "pay-center"
+    },
+    {
+      "source": "redpack",
+      "target": "alpha-risk"
+    },
+    {
+      "source": "",
+      "target": "saas-report-manager"
+    },
+    {
+      "source": "saas-recruit-seeker",
+      "target": "saas-recruit-job"
+    },
+    {
+      "source": "saas-admin-api",
+      "target": "saas-risk"
+    },
+    {
+      "source": "saas-biz-risk",
+      "target": "saas-data-extract"
+    },
+    {
+      "source": "saas-admin-api",
+      "target": "saas-agency"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "saas-agency"
+    },
+    {
+      "source": "saas-biz-risk",
+      "target": "alpha-risk"
+    },
+    {
+      "source": "saas-agency",
+      "target": "saas-biz-risk"
+    },
+    {
+      "source": "saas-staff-api",
+      "target": "saas-biz-risk"
+    },
+    {
+      "source": "saas-work-attendance-api",
+      "target": "saas-biz-risk"
+    },
+    {
+      "source": "",
+      "target": "saas-advance"
+    },
+    {
+      "source": "jjb-app-service",
+      "target": "diversion-service"
+    },
+    {
+      "source": "market-activity",
+      "target": "diversion-service"
+    },
+    {
+      "source": "member",
+      "target": "diversion-service"
+    },
+    {
+      "source": "check-account",
+      "target": "pay-center"
+    },
+    {
+      "source": "saas-admin-api",
+      "target": "pay-center"
+    },
+    {
+      "source": "saas-wallet",
+      "target": "pay-center"
+    },
+    {
+      "source": "pay-center",
+      "target": "saas-trade"
+    },
+    {
+      "source": "saas-recruit-seeker",
+      "target": "saas-recruit-corp"
+    },
+    {
+      "source": "saas-advance",
+      "target": "saas-report-manager"
+    },
+    {
+      "source": "saas-agency",
+      "target": "saas-report-manager"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "saas-report-manager"
+    },
+    {
+      "source": "saas-employee-manage",
+      "target": "saas-report-manager"
+    },
+    {
+      "source": "saas-salary-api",
+      "target": "saas-report-manager"
+    },
+    {
+      "source": "jjb-app-service",
+      "target": "ad-service"
+    },
+    {
+      "source": "saas-agency",
+      "target": "saas-biz-risk"
+    },
+    {
+      "source": "saas-admin-api",
+      "target": "gemini-staff-api"
+    },
+    {
+      "source": "anxinpin-job",
+      "target": "anxinpin-enterprise"
+    },
+    {
+      "source": "anxinpin-operate",
+      "target": "anxinpin-enterprise"
+    },
+    {
+      "source": "saas-admin-api",
+      "target": "gemini-boss-api"
+    },
+    {
+      "source": "saas-admin-api",
+      "target": "saas-dispatch-api"
+    },
+    {
+      "source": "saas-admin-api",
+      "target": "saas-contract"
+    },
+    {
+      "source": "member",
+      "target": "activity-third-account"
+    },
+    {
+      "source": "axcloud-employee",
+      "target": "axcloud-user"
+    },
+    {
+      "source": "axcloud-tenant",
+      "target": "axcloud-user"
+    },
+    {
+      "source": "java-proxy",
+      "target": "redpack"
+    },
+    {
+      "source": "market-center",
+      "target": "redpack"
+    },
+    {
+      "source": "saas-recruit-seeker",
+      "target": "saas-recruit-order"
+    },
+    {
+      "source": "saas-technology",
+      "target": "saas-route"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "saas-salary-api"
+    },
+    {
+      "source": "",
+      "target": "saas-dispatch-permission"
+    },
+    {
+      "source": "anxinpin-enterprise",
+      "target": "anxinpin-seeker"
+    },
+    {
+      "source": "anxinpin-job",
+      "target": "anxinpin-seeker"
+    },
+    {
+      "source": "user-center",
+      "target": "anxinpin-seeker"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "saas-daily-wage-api"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "saas-factoring"
+    },
+    {
+      "source": "saas-salary-api",
+      "target": "saas-factoring"
+    },
+    {
+      "source": "",
+      "target": "saas-employee-manage"
+    },
+    {
+      "source": "java-proxy",
+      "target": "assistant"
+    },
+    {
+      "source": "message",
+      "target": "assistant"
+    },
+    {
+      "source": "redpack",
+      "target": "assistant"
+    },
+    {
+      "source": "user-center",
+      "target": "assistant"
+    },
+    {
+      "source": "saas-advance",
+      "target": "saas-dispatch-permission"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "saas-dispatch-permission"
+    },
+    {
+      "source": "saas-employee-manage",
+      "target": "saas-dispatch-permission"
+    },
+    {
+      "source": "saas-salary-api",
+      "target": "saas-dispatch-permission"
+    },
+    {
+      "source": "saas-recruit-corp",
+      "target": "saas-recruit-job"
+    },
+    {
+      "source": "payment",
+      "target": "saas-dispatch-api"
+    },
+    {
+      "source": "pay-center",
+      "target": "saas-dispatch-api"
+    },
+    {
+      "source": "saas-wallet",
+      "target": "check-account"
+    },
+    {
+      "source": "saas-recruit-corp",
+      "target": "saas-recruit-seeker"
+    },
+    {
+      "source": "saas-recruit-order",
+      "target": "saas-recruit-seeker"
+    },
+    {
+      "source": "",
+      "target": "gemini-boss-api"
+    },
+    {
+      "source": "saas-daily-wage-api",
+      "target": "saas-employee-manage"
+    },
+    {
+      "source": "",
+      "target": "saas-third-party"
+    },
+    {
+      "source": "anxingou",
+      "target": "activity-third-account"
+    },
+    {
+      "source": "",
+      "target": "saas-recruit-corp"
+    },
+    {
+      "source": "axcloud-ad",
+      "target": "axcloud-tenant"
+    },
+    {
+      "source": "market-center",
+      "target": "data-center"
+    },
+    {
+      "source": "hourly-work",
+      "target": "activity-third-account"
+    },
+    {
+      "source": "piece-work",
+      "target": "activity-third-account"
+    },
+    {
+      "source": "anxinpin-enterprise",
+      "target": "message"
+    },
+    {
+      "source": "anxinpin-seeker",
+      "target": "message"
+    },
+    {
+      "source": "gemini-boss-api",
+      "target": "message"
+    },
+    {
+      "source": "gemini-staff-api",
+      "target": "message"
+    },
+    {
+      "source": "saas-advance",
+      "target": "message"
+    },
+    {
+      "source": "saas-contract",
+      "target": "message"
+    },
+    {
+      "source": "saas-daily-wage-api",
+      "target": "message"
+    },
+    {
+      "source": "saas-dispatch-api",
+      "target": "message"
+    },
+    {
+      "source": "saas-employee-manage",
+      "target": "message"
+    },
+    {
+      "source": "saas-factoring",
+      "target": "message"
+    },
+    {
+      "source": "saas-payroll",
+      "target": "message"
+    },
+    {
+      "source": "saas-salary-api",
+      "target": "message"
+    },
+    {
+      "source": "saas-staff-api",
+      "target": "message"
+    },
+    {
+      "source": "saas-third-party",
+      "target": "message"
+    },
+    {
+      "source": "user-center",
+      "target": "message"
+    },
+    {
+      "source": "saas-agency",
+      "target": "saas-payroll"
+    }
+  ]
+}

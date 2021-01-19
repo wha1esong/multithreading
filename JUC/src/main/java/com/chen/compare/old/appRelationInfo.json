@@ -1,0 +1,1832 @@
+{
+  "com.huixian.alpharisk.dubbo.facade.api.DubboAliVerifyService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.alpharisk.dubbo.facade.api.DubboAliVerifyService\/applications",
+    "provider": [
+      "alpha-risk"
+    ],
+    "consumer": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.alpharisk.dubbo.facade.api.DubboBankCardService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.alpharisk.dubbo.facade.api.DubboBankCardService\/applications",
+    "provider": [
+      "alpha-risk"
+    ],
+    "consumer": [
+      "saas-dispatch-api",
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.alpharisk.dubbo.facade.api.DubboFaceIdService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.alpharisk.dubbo.facade.api.DubboFaceIdService\/applications",
+    "provider": [
+      "alpha-risk"
+    ],
+    "consumer": [
+      "saas-biz-risk"
+    ]
+  },
+  "com.huixian.alpharisk.dubbo.facade.api.DubboFaceService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.alpharisk.dubbo.facade.api.DubboFaceService\/applications",
+    "provider": [
+      "alpha-risk"
+    ],
+    "consumer": [
+      "saas-employee-manage"
+    ]
+  },
+  "com.huixian.alpharisk.dubbo.facade.api.DubboIdCardVerifyService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.alpharisk.dubbo.facade.api.DubboIdCardVerifyService\/applications",
+    "provider": [
+      "alpha-risk"
+    ],
+    "consumer": [
+      "saas-admin-api",
+      "saas-agency",
+      "saas-daily-wage-api",
+      "saas-dispatch-api",
+      "saas-employee-manage",
+      "saas-merchant",
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.checkaccount.dubbo.facade.api.DubboCheckJobService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.checkaccount.dubbo.facade.api.DubboCheckJobService\/applications",
+    "provider": [
+      "check-account"
+    ],
+    "consumer": [
+      "saas-wallet"
+    ]
+  },
+  "com.huixian.message.dubbo.facade.api.DubboVerifyCodeSmsService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.message.dubbo.facade.api.DubboVerifyCodeSmsService\/applications",
+    "provider": [
+      "message"
+    ],
+    "consumer": [
+      "saas-advance",
+      "saas-contract",
+      "saas-daily-wage-api",
+      "saas-dispatch-api",
+      "saas-employee-manage",
+      "saas-factoring",
+      "saas-payroll",
+      "saas-salary-api",
+      "saas-staff-api",
+      "saas-third-party"
+    ]
+  },
+  "com.huixian.paycenter.dubbo.facade.api.DubboAccountService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.paycenter.dubbo.facade.api.DubboAccountService\/applications",
+    "consumer": [
+      "check-account",
+      "saas-admin-api",
+      "saas-wallet"
+    ],
+    "provider": [
+      "pay-center"
+    ]
+  },
+  "com.huixian.paycenter.dubbo.facade.api.DubboEBankAccountService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.paycenter.dubbo.facade.api.DubboEBankAccountService\/applications",
+    "consumer": [
+      "check-account",
+      "saas-admin-api",
+      "saas-wallet"
+    ],
+    "provider": [
+      "pay-center"
+    ]
+  },
+  "com.huixian.paycenter.dubbo.facade.api.DubboNotifyService:saas-dispatch": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.paycenter.dubbo.facade.api.DubboNotifyService:saas-dispatch\/applications",
+    "consumer": [
+      "pay-center"
+    ],
+    "provider": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.paycenter.dubbo.facade.api.DubboNotifyService:saas-wallet": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.paycenter.dubbo.facade.api.DubboNotifyService:saas-wallet\/applications",
+    "consumer": [
+      "pay-center"
+    ],
+    "provider": [
+      "saas-trade"
+    ]
+  },
+  "com.huixian.paycenter.dubbo.facade.api.DubboPaymentService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.paycenter.dubbo.facade.api.DubboPaymentService\/applications",
+    "consumer": [
+      "check-account",
+      "saas-account",
+      "saas-dispatch-api",
+      "saas-trade"
+    ],
+    "provider": [
+      "pay-center"
+    ]
+  },
+  "com.huixian.paycenter.dubbo.facade.api.DubboPinganAccountService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.paycenter.dubbo.facade.api.DubboPinganAccountService\/applications",
+    "provider": [
+      "pay-center"
+    ],
+    "consumer": [
+      "saas-admin-api",
+      "saas-wallet"
+    ]
+  },
+  "com.huixian.saasaccount.dubbo.facade.api.DubboAccountQueryService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasaccount.dubbo.facade.api.DubboAccountQueryService\/applications",
+    "provider": [
+      "saas-account"
+    ],
+    "consumer": [
+      "saas-market",
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasaccount.dubbo.facade.api.DubboAccountService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasaccount.dubbo.facade.api.DubboAccountService\/applications",
+    "provider": [
+      "saas-account"
+    ],
+    "consumer": [
+      "saas-market",
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasadminapi.dubbo.facade.api.DubboAdminMerchantNoticeService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasadminapi.dubbo.facade.api.DubboAdminMerchantNoticeService\/applications",
+    "provider": [
+      "saas-admin-api"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasadminapi.dubbo.facade.api.DubboMerchantServerService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasadminapi.dubbo.facade.api.DubboMerchantServerService\/applications",
+    "provider": [
+      "saas-admin-api"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasadvance.dubbo.facade.api.DubboAdvanceDeductService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasadvance.dubbo.facade.api.DubboAdvanceDeductService\/applications",
+    "provider": [
+      "saas-advance"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasadvance.dubbo.facade.api.DubboAdvancePushService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasadvance.dubbo.facade.api.DubboAdvancePushService\/applications",
+    "provider": [
+      "saas-advance"
+    ],
+    "consumer": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasadvance.dubbo.facade.api.DubboAdvanceService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasadvance.dubbo.facade.api.DubboAdvanceService\/applications",
+    "provider": [
+      "saas-advance"
+    ],
+    "consumer": [
+      "saas-dispatch-api",
+      "saas-report-manager",
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasadvance.dubbo.facade.api.DubboResidentAuditService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasadvance.dubbo.facade.api.DubboResidentAuditService\/applications",
+    "provider": [
+      "saas-advance"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasagency.dubbo.facade.api.DubboAgencyCommonService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasagency.dubbo.facade.api.DubboAgencyCommonService\/applications",
+    "provider": [
+      "saas-agency"
+    ],
+    "consumer": [
+      "saas-biz-risk",
+      "saas-dispatch-api",
+      "saas-risk-admin-api"
+    ]
+  },
+  "com.huixian.saasagency.dubbo.facade.api.DubboAgencyDailyAttendanceService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasagency.dubbo.facade.api.DubboAgencyDailyAttendanceService\/applications",
+    "provider": [
+      "saas-agency"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasagency.dubbo.facade.api.DubboAgencyDailySummaryRecordService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasagency.dubbo.facade.api.DubboAgencyDailySummaryRecordService\/applications",
+    "provider": [
+      "saas-agency"
+    ],
+    "consumer": [
+      "saas-biz-risk",
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasagency.dubbo.facade.api.DubboAgencyPushService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasagency.dubbo.facade.api.DubboAgencyPushService\/applications",
+    "provider": [
+      "saas-agency"
+    ],
+    "consumer": [
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasagency.dubbo.facade.api.DubboAgencySalaryService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasagency.dubbo.facade.api.DubboAgencySalaryService\/applications",
+    "provider": [
+      "saas-agency"
+    ],
+    "consumer": [
+      "saas-dispatch-api",
+      "saas-report-manager",
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasagency.dubbo.facade.api.DubboDailyMerchantService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasagency.dubbo.facade.api.DubboDailyMerchantService\/applications",
+    "consumer": [
+      "saas-admin-api",
+      "saas-dispatch-api"
+    ],
+    "provider": [
+      "saas-agency"
+    ]
+  },
+  "com.huixian.saasagency.dubbo.facade.api.DubboDailySalaryService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasagency.dubbo.facade.api.DubboDailySalaryService\/applications",
+    "provider": [
+      "saas-agency"
+    ],
+    "consumer": [
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasagency.dubbo.facade.api.DubboMerchantFactoryService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasagency.dubbo.facade.api.DubboMerchantFactoryService\/applications",
+    "provider": [
+      "saas-agency"
+    ],
+    "consumer": [
+      "saas-biz-risk",
+      "saas-risk-admin-api"
+    ]
+  },
+  "com.huixian.saasappeal.dubbo.facade.api.DubboAppealService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasappeal.dubbo.facade.api.DubboAppealService\/applications",
+    "provider": [
+      "saas-appeal"
+    ],
+    "consumer": [
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.DubboFaceIdService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasbizrisk.dubbo.facade.api.DubboFaceIdService\/applications",
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.DubboRiskAppealService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasbizrisk.dubbo.facade.api.DubboRiskAppealService\/applications",
+    "consumer": [
+      "saas-appeal",
+      "saas-work-attendance-api"
+    ],
+    "provider": [
+      "saas-biz-risk"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.DubboRiskConfigService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasbizrisk.dubbo.facade.api.DubboRiskConfigService\/applications",
+    "consumer": [
+      "saas-agency",
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ],
+    "provider": [
+      "saas-biz-risk"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.DubboRiskFeedbackService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasbizrisk.dubbo.facade.api.DubboRiskFeedbackService\/applications",
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.DubboRiskResultService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasbizrisk.dubbo.facade.api.DubboRiskResultService\/applications",
+    "consumer": [
+      "saas-agency",
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ],
+    "provider": [
+      "saas-biz-risk"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.DubboRiskReviewService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasbizrisk.dubbo.facade.api.DubboRiskReviewService\/applications",
+    "consumer": [
+      "saas-agency"
+    ],
+    "provider": [
+      "saas-biz-risk"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.DubboRiskStrategyService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasbizrisk.dubbo.facade.api.DubboRiskStrategyService\/applications",
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-risk-lab"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboRiskAppealManagementService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboRiskAppealManagementService\/applications",
+    "consumer": [
+      "saas-appeal",
+      "saas-risk-admin-api"
+    ],
+    "provider": [
+      "saas-biz-risk"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboRiskEventResultManagementService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboRiskEventResultManagementService\/applications",
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-risk-admin-api"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboRiskFeedbackManagementService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboRiskFeedbackManagementService\/applications",
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-risk-admin-api"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboRiskFileManagementService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboRiskFileManagementService\/applications",
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-risk-admin-api"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboRiskPlanManagementService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboRiskPlanManagementService\/applications",
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-risk-admin-api"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboRiskRegulationManagementService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboRiskRegulationManagementService\/applications",
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-risk-admin-api"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboRiskStrategyManagementService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboRiskStrategyManagementService\/applications",
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-risk-admin-api"
+    ]
+  },
+  "com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboUserBlackListService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasbizrisk.dubbo.facade.api.admin.DubboUserBlackListService\/applications",
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-risk-admin-api"
+    ]
+  },
+  "com.huixian.saaschargemanage.dubbo.facade.api.DubboChargeAppService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saaschargemanage.dubbo.facade.api.DubboChargeAppService\/applications",
+    "consumer": [
+      "saas-admin-api"
+    ],
+    "provider": [
+      "saas-charge-manage"
+    ]
+  },
+  "com.huixian.saaschargemanage.dubbo.facade.api.DubboChargeOrderService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saaschargemanage.dubbo.facade.api.DubboChargeOrderService\/applications",
+    "consumer": [
+      "saas-admin-api",
+      "saas-employee-manage",
+      "saas-payroll"
+    ],
+    "provider": [
+      "saas-charge-manage"
+    ]
+  },
+  "com.huixian.saaschargemanage.dubbo.facade.api.DubboChargeService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saaschargemanage.dubbo.facade.api.DubboChargeService\/applications",
+    "consumer": [
+      "saas-admin-api",
+      "saas-dispatch-api",
+      "saas-employee-manage"
+    ],
+    "provider": [
+      "saas-charge-manage"
+    ]
+  },
+  "com.huixian.saaschargemanage.dubbo.facade.api.DubboUserService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saaschargemanage.dubbo.facade.api.DubboUserService\/applications",
+    "consumer": [
+      "saas-admin-api",
+      "saas-dispatch-api",
+      "saas-employee-manage"
+    ],
+    "provider": [
+      "saas-charge-manage"
+    ]
+  },
+  "com.huixian.saascontract.dubbo.facade.api.DubboContractBatchService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saascontract.dubbo.facade.api.DubboContractBatchService\/applications",
+    "provider": [
+      "saas-contract"
+    ],
+    "consumer": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saascontract.dubbo.facade.api.DubboContractOrderService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saascontract.dubbo.facade.api.DubboContractOrderService\/applications",
+    "provider": [
+      "saas-contract"
+    ],
+    "consumer": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saascontract.dubbo.facade.api.DubboMerchantContractService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saascontract.dubbo.facade.api.DubboMerchantContractService\/applications",
+    "consumer": [
+      "saas-admin-api"
+    ],
+    "provider": [
+      "saas-contract"
+    ]
+  },
+  "com.huixian.saascontract.dubbo.facade.api.DubboPersonalContractService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saascontract.dubbo.facade.api.DubboPersonalContractService\/applications",
+    "provider": [
+      "saas-contract"
+    ],
+    "consumer": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasdailywageapi.dubbo.facade.api.DubboDailyAuditService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdailywageapi.dubbo.facade.api.DubboDailyAuditService\/applications",
+    "provider": [
+      "saas-daily-wage-api"
+    ],
+    "consumer": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasdailywageapi.dubbo.facade.api.DubboDailyModelService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdailywageapi.dubbo.facade.api.DubboDailyModelService\/applications",
+    "provider": [
+      "saas-daily-wage-api"
+    ],
+    "consumer": [
+      "saas-dispatch-api",
+      "saas-employee-manage",
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasdailywageapi.dubbo.facade.api.DubboDailySalaryService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdailywageapi.dubbo.facade.api.DubboDailySalaryService\/applications",
+    "provider": [
+      "saas-daily-wage-api"
+    ],
+    "consumer": [
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasdataextract.dubbo.facade.api.DubboRiskDeviceService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdataextract.dubbo.facade.api.DubboRiskDeviceService\/applications",
+    "consumer": [
+      "saas-biz-risk"
+    ],
+    "provider": [
+      "saas-data-extract"
+    ]
+  },
+  "com.huixian.saasdataextract.dubbo.facade.api.DubboRiskUserService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdataextract.dubbo.facade.api.DubboRiskUserService\/applications",
+    "consumer": [
+      "saas-biz-risk"
+    ],
+    "provider": [
+      "saas-data-extract"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboAgencyPaySalaryService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdispatchapi.dubbo.facade.api.DubboAgencyPaySalaryService\/applications",
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboDailySalaryService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdispatchapi.dubbo.facade.api.DubboDailySalaryService\/applications",
+    "consumer": [
+      "saas-agency",
+      "saas-report-manager",
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ],
+    "provider": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboDailySalaryTaskService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdispatchapi.dubbo.facade.api.DubboDailySalaryTaskService\/applications",
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboDictFactoryService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdispatchapi.dubbo.facade.api.DubboDictFactoryService\/applications",
+    "consumer": [
+      "saas-advance",
+      "saas-contract",
+      "saas-factoring",
+      "saas-report-manager",
+      "saas-salary-api",
+      "saas-staff-api",
+      "saas-standard-factory-api"
+    ],
+    "provider": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboDispatchConfigService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdispatchapi.dubbo.facade.api.DubboDispatchConfigService\/applications",
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-salary-api"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboDispatchDeductService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdispatchapi.dubbo.facade.api.DubboDispatchDeductService\/applications",
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboDispatchPushService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdispatchapi.dubbo.facade.api.DubboDispatchPushService\/applications",
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboDispatchWeekSalaryTaskService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdispatchapi.dubbo.facade.api.DubboDispatchWeekSalaryTaskService\/applications",
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboDrawService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdispatchapi.dubbo.facade.api.DubboDrawService\/applications",
+    "consumer": [
+      "saas-admin-api"
+    ],
+    "provider": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboFactoringService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdispatchapi.dubbo.facade.api.DubboFactoringService\/applications",
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-factoring"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboInterviewFactoryService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdispatchapi.dubbo.facade.api.DubboInterviewFactoryService\/applications",
+    "consumer": [
+      "saas-contract",
+      "saas-employee-manage"
+    ],
+    "provider": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboMerchantNoticeService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdispatchapi.dubbo.facade.api.DubboMerchantNoticeService\/applications",
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboMerchantService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdispatchapi.dubbo.facade.api.DubboMerchantService\/applications",
+    "consumer": [
+      "saas-admin-api",
+      "saas-advance",
+      "saas-charge-manage",
+      "saas-contract",
+      "saas-dispatch-permission",
+      "saas-employee-manage",
+      "saas-salary-api",
+      "saas-staff-api",
+      "saas-technology"
+    ],
+    "provider": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboQueryPayChannelService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdispatchapi.dubbo.facade.api.DubboQueryPayChannelService\/applications",
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-salary-api"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboSalaryOrderService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdispatchapi.dubbo.facade.api.DubboSalaryOrderService\/applications",
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-factoring"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboShareService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdispatchapi.dubbo.facade.api.DubboShareService\/applications",
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboUserAuditOrderService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdispatchapi.dubbo.facade.api.DubboUserAuditOrderService\/applications",
+    "consumer": [
+      "saas-admin-api"
+    ],
+    "provider": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboUserFactoryService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdispatchapi.dubbo.facade.api.DubboUserFactoryService\/applications",
+    "consumer": [
+      "saas-daily-wage-api",
+      "saas-work-attendance-api"
+    ],
+    "provider": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasdispatchapi.dubbo.facade.api.DubboUserService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdispatchapi.dubbo.facade.api.DubboUserService\/applications",
+    "consumer": [
+      "saas-admin-api",
+      "saas-advance",
+      "saas-contract",
+      "saas-daily-wage-api",
+      "saas-employee-manage",
+      "saas-payroll",
+      "saas-salary-api"
+    ],
+    "provider": [
+      "saas-dispatch-api"
+    ]
+  },
+  "com.huixian.saasdispatchpermission.dubbo.facade.api.DubboRoleService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasdispatchpermission.dubbo.facade.api.DubboRoleService\/applications",
+    "consumer": [
+      "saas-advance",
+      "saas-dispatch-api",
+      "saas-employee-manage",
+      "saas-salary-api"
+    ],
+    "provider": [
+      "saas-dispatch-permission"
+    ]
+  },
+  "com.huixian.saasemployeeim.dubbo.facade.api.DubboImAccountService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasemployeeim.dubbo.facade.api.DubboImAccountService\/applications",
+    "consumer": [
+      "saas-dispatch-api",
+      "saas-staff-api"
+    ],
+    "provider": [
+      "saas-employee-im"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.DubboEmployeeInterviewJobService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasemployeemanage.dubbo.facade.api.DubboEmployeeInterviewJobService\/applications",
+    "consumer": [
+      "saas-dispatch-api"
+    ],
+    "provider": [
+      "saas-employee-manage"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.DubboEmployeeManageUserService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasemployeemanage.dubbo.facade.api.DubboEmployeeManageUserService\/applications",
+    "consumer": [
+      "saas-dispatch-api",
+      "saas-merchant"
+    ],
+    "provider": [
+      "saas-employee-manage"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.DubboEmployeePicService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasemployeemanage.dubbo.facade.api.DubboEmployeePicService\/applications",
+    "consumer": [
+      "saas-dispatch-api",
+      "saas-staff-api"
+    ],
+    "provider": [
+      "saas-employee-manage"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.DubboEmployeeRegisterService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasemployeemanage.dubbo.facade.api.DubboEmployeeRegisterService\/applications",
+    "consumer": [
+      "saas-dispatch-api"
+    ],
+    "provider": [
+      "saas-employee-manage"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.DubboInterviewFactoryJobService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasemployeemanage.dubbo.facade.api.DubboInterviewFactoryJobService\/applications",
+    "consumer": [
+      "saas-dispatch-api"
+    ],
+    "provider": [
+      "saas-employee-manage"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.DubboInterviewFactoryOperatorMappingService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasemployeemanage.dubbo.facade.api.DubboInterviewFactoryOperatorMappingService\/applications",
+    "consumer": [
+      "saas-dispatch-api"
+    ],
+    "provider": [
+      "saas-employee-manage"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.DubboInterviewService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasemployeemanage.dubbo.facade.api.DubboInterviewService\/applications",
+    "consumer": [
+      "saas-dispatch-api"
+    ],
+    "provider": [
+      "saas-employee-manage"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.DubboPartnerService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasemployeemanage.dubbo.facade.api.DubboPartnerService\/applications",
+    "consumer": [
+      "saas-dispatch-api"
+    ],
+    "provider": [
+      "saas-employee-manage"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.DubboReportService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasemployeemanage.dubbo.facade.api.DubboReportService\/applications",
+    "consumer": [
+      "saas-dispatch-api"
+    ],
+    "provider": [
+      "saas-employee-manage"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.laborer.DubboLaborerAttendanceService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasemployeemanage.dubbo.facade.api.laborer.DubboLaborerAttendanceService\/applications",
+    "consumer": [
+      "saas-daily-wage-api",
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ],
+    "provider": [
+      "saas-employee-manage"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.laborer.DubboLaborerEntryManagerQueryService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasemployeemanage.dubbo.facade.api.laborer.DubboLaborerEntryManagerQueryService\/applications",
+    "provider": [
+      "saas-employee-manage"
+    ],
+    "consumer": [
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.laborer.DubboLaborerExcelImportService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasemployeemanage.dubbo.facade.api.laborer.DubboLaborerExcelImportService\/applications",
+    "consumer": [
+      "saas-dispatch-api"
+    ],
+    "provider": [
+      "saas-employee-manage"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.laborer.DubboLaborerInfoService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasemployeemanage.dubbo.facade.api.laborer.DubboLaborerInfoService\/applications",
+    "consumer": [
+      "saas-dispatch-api"
+    ],
+    "provider": [
+      "saas-employee-manage"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.laborer.DubboLaborerModelService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasemployeemanage.dubbo.facade.api.laborer.DubboLaborerModelService\/applications",
+    "consumer": [
+      "saas-daily-wage-api"
+    ],
+    "provider": [
+      "saas-employee-manage"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.laborer.DubboLaborerQueryService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasemployeemanage.dubbo.facade.api.laborer.DubboLaborerQueryService\/applications",
+    "consumer": [
+      "saas-daily-wage-api",
+      "saas-dispatch-api",
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ],
+    "provider": [
+      "saas-employee-manage"
+    ]
+  },
+  "com.huixian.saasemployeemanage.dubbo.facade.api.laborer.DubboLaborerSalaryModelService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasemployeemanage.dubbo.facade.api.laborer.DubboLaborerSalaryModelService\/applications",
+    "consumer": [
+      "saas-daily-wage-api",
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ],
+    "provider": [
+      "saas-employee-manage"
+    ]
+  },
+  "com.huixian.saasfactoring.dubbo.facade.api.DubboDispatchService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasfactoring.dubbo.facade.api.DubboDispatchService\/applications",
+    "consumer": [
+      "saas-dispatch-api",
+      "saas-salary-api"
+    ],
+    "provider": [
+      "saas-factoring"
+    ]
+  },
+  "com.huixian.saasfactoring.dubbo.facade.api.DubboFactoringMerchantService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasfactoring.dubbo.facade.api.DubboFactoringMerchantService\/applications",
+    "consumer": [
+      "saas-admin-api",
+      "saas-wallet"
+    ],
+    "provider": [
+      "saas-factoring"
+    ]
+  },
+  "com.huixian.saasmarket.dubbo.facade.api.DubboAgencyDailySalaryRedPackService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasmarket.dubbo.facade.api.DubboAgencyDailySalaryRedPackService\/applications",
+    "consumer": [
+      "saas-agency",
+      "saas-staff-api"
+    ],
+    "provider": [
+      "saas-market"
+    ]
+  },
+  "com.huixian.saasmerchant.dubbo.facade.api.DubboMerchantAttrService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasmerchant.dubbo.facade.api.DubboMerchantAttrService\/applications",
+    "consumer": [
+      "saas-admin-api",
+      "saas-advance",
+      "saas-agency",
+      "saas-charge-manage",
+      "saas-contract",
+      "saas-daily-wage-api",
+      "saas-dispatch-api",
+      "saas-employee-manage",
+      "saas-payroll",
+      "saas-report-manager",
+      "saas-risk",
+      "saas-salary-api",
+      "saas-staff-api",
+      "saas-technology",
+      "saas-work-attendance-api"
+    ],
+    "provider": [
+      "saas-merchant"
+    ]
+  },
+  "com.huixian.saasmerchant.dubbo.facade.api.DubboMerchantOpenAccountService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasmerchant.dubbo.facade.api.DubboMerchantOpenAccountService\/applications",
+    "consumer": [
+      "saas-advance",
+      "saas-agency",
+      "saas-contract",
+      "saas-dispatch-api",
+      "saas-employee-manage",
+      "saas-payroll",
+      "saas-salary-api",
+      "saas-staff-api"
+    ],
+    "provider": [
+      "saas-merchant"
+    ]
+  },
+  "com.huixian.saasmerchant.dubbo.facade.api.DubboMerchantRecordService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasmerchant.dubbo.facade.api.DubboMerchantRecordService\/applications",
+    "consumer": [
+      "saas-dispatch-api",
+      "saas-staff-api",
+      "saas-wallet"
+    ],
+    "provider": [
+      "saas-merchant"
+    ]
+  },
+  "com.huixian.saasmerchant.dubbo.facade.api.DubboMerchantThemeService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasmerchant.dubbo.facade.api.DubboMerchantThemeService\/applications",
+    "consumer": [
+      "saas-dispatch-api"
+    ],
+    "provider": [
+      "saas-merchant"
+    ]
+  },
+  "com.huixian.saasmerchant.dubbo.facade.api.DubboMiniProgramApplyService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasmerchant.dubbo.facade.api.DubboMiniProgramApplyService\/applications",
+    "consumer": [
+      "saas-admin-api"
+    ],
+    "provider": [
+      "saas-merchant"
+    ]
+  },
+  "com.huixian.saasmerchant.dubbo.facade.api.DubboMiniProgramCallbackService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasmerchant.dubbo.facade.api.DubboMiniProgramCallbackService\/applications",
+    "consumer": [
+      "saas-admin-api"
+    ],
+    "provider": [
+      "saas-merchant"
+    ]
+  },
+  "com.huixian.saasmerchant.dubbo.facade.api.DubboMiniProgramConfigService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasmerchant.dubbo.facade.api.DubboMiniProgramConfigService\/applications",
+    "consumer": [
+      "saas-admin-api"
+    ],
+    "provider": [
+      "saas-merchant"
+    ]
+  },
+  "com.huixian.saasmerchant.dubbo.facade.api.DubboMiniProgramService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasmerchant.dubbo.facade.api.DubboMiniProgramService\/applications",
+    "consumer": [
+      "saas-admin-api",
+      "saas-staff-api"
+    ],
+    "provider": [
+      "saas-merchant"
+    ]
+  },
+  "com.huixian.saaspayroll.dubbo.facade.api.DubboAgencyPayrollService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saaspayroll.dubbo.facade.api.DubboAgencyPayrollService\/applications",
+    "consumer": [
+      "saas-agency"
+    ],
+    "provider": [
+      "saas-payroll"
+    ]
+  },
+  "com.huixian.saaspayroll.dubbo.facade.api.DubboPayrollPushService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saaspayroll.dubbo.facade.api.DubboPayrollPushService\/applications",
+    "provider": [
+      "saas-payroll"
+    ],
+    "consumer": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasrecruitcorp.dubbo.facade.api.DubboApplyMiniProgramService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasrecruitcorp.dubbo.facade.api.DubboApplyMiniProgramService\/applications",
+    "consumer": [
+      "saas-admin-api"
+    ],
+    "provider": [
+      "saas-recruit-corp"
+    ]
+  },
+  "com.huixian.saasrecruitcorp.dubbo.facade.api.DubboCorpConfigService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasrecruitcorp.dubbo.facade.api.DubboCorpConfigService\/applications",
+    "consumer": [
+      "saas-admin-api"
+    ],
+    "provider": [
+      "saas-recruit-corp"
+    ]
+  },
+  "com.huixian.saasrecruitcorp.dubbo.facade.api.DubboGenTokenService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasrecruitcorp.dubbo.facade.api.DubboGenTokenService\/applications",
+    "provider": [
+      "saas-recruit-corp"
+    ],
+    "consumer": [
+      "saas-recruit-seeker"
+    ]
+  },
+  "com.huixian.saasrecruitcorp.dubbo.facade.api.DubboMiniProgramService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasrecruitcorp.dubbo.facade.api.DubboMiniProgramService\/applications",
+    "consumer": [
+      "saas-admin-api"
+    ],
+    "provider": [
+      "saas-recruit-corp"
+    ]
+  },
+  "com.huixian.saasrecruitjob.dubbo.facade.api.DubboCorpJobService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasrecruitjob.dubbo.facade.api.DubboCorpJobService\/applications",
+    "consumer": [
+      "saas-recruit-corp"
+    ],
+    "provider": [
+      "saas-recruit-job"
+    ]
+  },
+  "com.huixian.saasrecruitjob.dubbo.facade.api.DubboCorpTagService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasrecruitjob.dubbo.facade.api.DubboCorpTagService\/applications",
+    "consumer": [
+      "saas-recruit-corp"
+    ],
+    "provider": [
+      "saas-recruit-job"
+    ]
+  },
+  "com.huixian.saasrecruitjob.dubbo.facade.api.DubboSeekerJobService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasrecruitjob.dubbo.facade.api.DubboSeekerJobService\/applications",
+    "provider": [
+      "saas-recruit-job"
+    ],
+    "consumer": [
+      "saas-recruit-seeker"
+    ]
+  },
+  "com.huixian.saasrecruitmarket.dubbo.facade.api.DubboCorpMarketService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasrecruitmarket.dubbo.facade.api.DubboCorpMarketService\/applications",
+    "consumer": [
+      "saas-recruit-corp"
+    ],
+    "provider": [
+      "saas-recruit-market"
+    ]
+  },
+  "com.huixian.saasrecruitmarket.dubbo.facade.api.DubboSeekerMarketService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasrecruitmarket.dubbo.facade.api.DubboSeekerMarketService\/applications",
+    "provider": [
+      "saas-recruit-market"
+    ],
+    "consumer": [
+      "saas-recruit-seeker"
+    ]
+  },
+  "com.huixian.saasrecruitorder.dubbo.facade.api.DubboCorpOrderRptService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasrecruitorder.dubbo.facade.api.DubboCorpOrderRptService\/applications",
+    "consumer": [
+      "saas-recruit-corp"
+    ],
+    "provider": [
+      "saas-recruit-order"
+    ]
+  },
+  "com.huixian.saasrecruitorder.dubbo.facade.api.DubboCorpOrderService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasrecruitorder.dubbo.facade.api.DubboCorpOrderService\/applications",
+    "consumer": [
+      "saas-recruit-corp"
+    ],
+    "provider": [
+      "saas-recruit-order"
+    ]
+  },
+  "com.huixian.saasrecruitorder.dubbo.facade.api.DubboMiniCorpOrderService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasrecruitorder.dubbo.facade.api.DubboMiniCorpOrderService\/applications",
+    "consumer": [
+      "saas-recruit-corp"
+    ],
+    "provider": [
+      "saas-recruit-order"
+    ]
+  },
+  "com.huixian.saasrecruitorder.dubbo.facade.api.DubboSeekerOrderService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasrecruitorder.dubbo.facade.api.DubboSeekerOrderService\/applications",
+    "provider": [
+      "saas-recruit-order"
+    ],
+    "consumer": [
+      "saas-recruit-seeker"
+    ]
+  },
+  "com.huixian.saasrecruitseeker.dubbo.facade.api.DubboCorpService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasrecruitseeker.dubbo.facade.api.DubboCorpService\/applications",
+    "consumer": [
+      "saas-recruit-corp"
+    ],
+    "provider": [
+      "saas-recruit-seeker"
+    ]
+  },
+  "com.huixian.saasrecruitseeker.dubbo.facade.api.DubboOrderSeekerService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasrecruitseeker.dubbo.facade.api.DubboOrderSeekerService\/applications",
+    "consumer": [
+      "saas-recruit-corp",
+      "saas-recruit-order"
+    ],
+    "provider": [
+      "saas-recruit-seeker"
+    ]
+  },
+  "com.huixian.saasreportmanager.dubbo.facade.api.DubboDownloadService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasreportmanager.dubbo.facade.api.DubboDownloadService\/applications",
+    "consumer": [
+      "saas-advance",
+      "saas-dispatch-api",
+      "saas-salary-api"
+    ],
+    "provider": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.saasreportmanager.dubbo.facade.api.DubboExcelExportService:employee_interview": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasreportmanager.dubbo.facade.api.DubboExcelExportService:employee_interview\/applications",
+    "provider": [
+      "saas-employee-manage"
+    ],
+    "consumer": [
+      "saas-report-manager"
+    ]
+  },
+  "com.huixian.saasreportmanager.dubbo.facade.api.DubboExcelExportService:salary-history": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasreportmanager.dubbo.facade.api.DubboExcelExportService:salary-history\/applications",
+    "consumer": [
+      "saas-report-manager"
+    ],
+    "provider": [
+      "saas-salary-api"
+    ]
+  },
+  "com.huixian.saasrisk.dubbo.facade.api.DubboAdminRiskApp": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasrisk.dubbo.facade.api.DubboAdminRiskApp\/applications",
+    "consumer": [
+      "saas-admin-api"
+    ],
+    "provider": [
+      "saas-risk"
+    ]
+  },
+  "com.huixian.saasrisk.dubbo.facade.api.DubboStaffReportDeviceInfo": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasrisk.dubbo.facade.api.DubboStaffReportDeviceInfo\/applications",
+    "consumer": [
+      "saas-agency",
+      "saas-daily-wage-api",
+      "saas-dispatch-api",
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ],
+    "provider": [
+      "saas-risk"
+    ]
+  },
+  "com.huixian.saasrisk.dubbo.facade.api.DubboStaffReportDeviceLocation": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasrisk.dubbo.facade.api.DubboStaffReportDeviceLocation\/applications",
+    "provider": [
+      "saas-risk"
+    ],
+    "consumer": [
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasrisklab.dubbo.facade.api.DubboRiskPlanService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasrisklab.dubbo.facade.api.DubboRiskPlanService\/applications",
+    "consumer": [
+      "saas-biz-risk"
+    ],
+    "provider": [
+      "saas-risk-lab"
+    ]
+  },
+  "com.huixian.saasrisklab.dubbo.facade.api.DubboRiskPlanTaskNotifyService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasrisklab.dubbo.facade.api.DubboRiskPlanTaskNotifyService\/applications",
+    "provider": [
+      "saas-biz-risk"
+    ],
+    "consumer": [
+      "saas-risk-lab"
+    ]
+  },
+  "com.huixian.saasrisklab.dubbo.facade.api.DubboRiskPlanTaskService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasrisklab.dubbo.facade.api.DubboRiskPlanTaskService\/applications",
+    "consumer": [
+      "saas-biz-risk"
+    ],
+    "provider": [
+      "saas-risk-lab"
+    ]
+  },
+  "com.huixian.saasroute.dubbo.facade.api.DubboRouteMerchantShuntService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasroute.dubbo.facade.api.DubboRouteMerchantShuntService\/applications",
+    "provider": [
+      "saas-route"
+    ],
+    "consumer": [
+      "saas-technology"
+    ]
+  },
+  "com.huixian.saasroute.dubbo.facade.api.DubboRouteService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasroute.dubbo.facade.api.DubboRouteService\/applications",
+    "consumer": [
+      "saas-admin-api",
+      "saas-dispatch-api",
+      "saas-staff-api"
+    ],
+    "provider": [
+      "saas-route"
+    ]
+  },
+  "com.huixian.saassalaryapi.dubbo.facade.api.DubboFactoringService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saassalaryapi.dubbo.facade.api.DubboFactoringService\/applications",
+    "consumer": [
+      "saas-factoring"
+    ],
+    "provider": [
+      "saas-salary-api"
+    ]
+  },
+  "com.huixian.saassalaryapi.dubbo.facade.api.DubboSalaryDeductService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saassalaryapi.dubbo.facade.api.DubboSalaryDeductService\/applications",
+    "consumer": [
+      "saas-dispatch-api"
+    ],
+    "provider": [
+      "saas-salary-api"
+    ]
+  },
+  "com.huixian.saassalaryapi.dubbo.facade.api.DubboSalaryOrderService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saassalaryapi.dubbo.facade.api.DubboSalaryOrderService\/applications",
+    "consumer": [
+      "saas-admin-api",
+      "saas-dispatch-api",
+      "saas-factoring",
+      "saas-report-manager"
+    ],
+    "provider": [
+      "saas-salary-api"
+    ]
+  },
+  "com.huixian.saassalaryapi.dubbo.facade.api.DubboSalaryPushService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saassalaryapi.dubbo.facade.api.DubboSalaryPushService\/applications",
+    "provider": [
+      "saas-salary-api"
+    ],
+    "consumer": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboAppServerConfigService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasstaffapi.dubbo.facade.api.DubboAppServerConfigService\/applications",
+    "consumer": [
+      "saas-admin-api"
+    ],
+    "provider": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboCustomerAttendanceService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasstaffapi.dubbo.facade.api.DubboCustomerAttendanceService\/applications",
+    "consumer": [
+      "saas-agency",
+      "saas-dispatch-api"
+    ],
+    "provider": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboCustomerService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasstaffapi.dubbo.facade.api.DubboCustomerService\/applications",
+    "consumer": [
+      "saas-advance",
+      "saas-agency",
+      "saas-dispatch-api",
+      "saas-employee-manage",
+      "saas-market",
+      "saas-salary-api",
+      "saas-work-attendance-api"
+    ],
+    "provider": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboDailySalaryService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasstaffapi.dubbo.facade.api.DubboDailySalaryService\/applications",
+    "consumer": [
+      "saas-agency",
+      "saas-market",
+      "saas-work-attendance-api"
+    ],
+    "provider": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboKeFuService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasstaffapi.dubbo.facade.api.DubboKeFuService\/applications",
+    "consumer": [
+      "saas-dispatch-api",
+      "saas-work-attendance-api"
+    ],
+    "provider": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboMerchantCacheService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasstaffapi.dubbo.facade.api.DubboMerchantCacheService\/applications",
+    "provider": [
+      "saas-staff-api"
+    ],
+    "consumer": [
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboPushStaffService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasstaffapi.dubbo.facade.api.DubboPushStaffService\/applications",
+    "consumer": [
+      "saas-advance",
+      "saas-agency",
+      "saas-dispatch-api",
+      "saas-payroll",
+      "saas-salary-api",
+      "saas-work-attendance-api"
+    ],
+    "provider": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboSalaryService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasstaffapi.dubbo.facade.api.DubboSalaryService\/applications",
+    "consumer": [
+      "saas-dispatch-api"
+    ],
+    "provider": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboShareService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasstaffapi.dubbo.facade.api.DubboShareService\/applications",
+    "consumer": [
+      "saas-dispatch-api"
+    ],
+    "provider": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboStaffInformService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasstaffapi.dubbo.facade.api.DubboStaffInformService\/applications",
+    "consumer": [
+      "saas-agency",
+      "saas-work-attendance-api"
+    ],
+    "provider": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboSyncDailySalaryRecordService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasstaffapi.dubbo.facade.api.DubboSyncDailySalaryRecordService\/applications",
+    "consumer": [
+      "saas-agency",
+      "saas-employee-manage"
+    ],
+    "provider": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboSyncQueryService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasstaffapi.dubbo.facade.api.DubboSyncQueryService\/applications",
+    "consumer": [
+      "saas-advance",
+      "saas-agency",
+      "saas-dispatch-api"
+    ],
+    "provider": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasstaffapi.dubbo.facade.api.DubboWeixinService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasstaffapi.dubbo.facade.api.DubboWeixinService\/applications",
+    "consumer": [
+      "saas-agency"
+    ],
+    "provider": [
+      "saas-staff-api"
+    ]
+  },
+  "com.huixian.saasstandardfactoryapi.dubbo.facade.api.DubboMerchantFactoryService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasstandardfactoryapi.dubbo.facade.api.DubboMerchantFactoryService\/applications",
+    "consumer": [
+      "saas-daily-wage-api",
+      "saas-dispatch-api",
+      "saas-employee-manage",
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ],
+    "provider": [
+      "saas-standard-factory-api"
+    ]
+  },
+  "com.huixian.saasstandardfactoryapi.dubbo.facade.api.DubboMerchantFenceService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasstandardfactoryapi.dubbo.facade.api.DubboMerchantFenceService\/applications",
+    "consumer": [
+      "saas-daily-wage-api",
+      "saas-staff-api",
+      "saas-work-attendance-api"
+    ],
+    "provider": [
+      "saas-standard-factory-api"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboAccountQueryService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saastrade.dubbo.facade.api.DubboAccountQueryService\/applications",
+    "consumer": [
+      "saas-dispatch-api",
+      "saas-salary-api",
+      "saas-staff-api"
+    ],
+    "provider": [
+      "saas-trade"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboPayOrderService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saastrade.dubbo.facade.api.DubboPayOrderService\/applications",
+    "consumer": [
+      "check-account"
+    ],
+    "provider": [
+      "saas-trade"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboReceiveNotifyService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saastrade.dubbo.facade.api.DubboReceiveNotifyService\/applications",
+    "provider": [
+      "saas-staff-api"
+    ],
+    "consumer": [
+      "saas-trade"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboReceiveService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saastrade.dubbo.facade.api.DubboReceiveService\/applications",
+    "consumer": [
+      "saas-staff-api"
+    ],
+    "provider": [
+      "saas-trade"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboRecordService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saastrade.dubbo.facade.api.DubboRecordService\/applications",
+    "consumer": [
+      "saas-admin-api",
+      "saas-agency",
+      "saas-dispatch-api",
+      "saas-salary-api"
+    ],
+    "provider": [
+      "saas-trade"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboSalaryService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saastrade.dubbo.facade.api.DubboSalaryService\/applications",
+    "consumer": [
+      "saas-advance",
+      "saas-agency",
+      "saas-daily-wage-api",
+      "saas-dispatch-api",
+      "saas-salary-api"
+    ],
+    "provider": [
+      "saas-trade"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboTicketNotifyService:advance": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saastrade.dubbo.facade.api.DubboTicketNotifyService:advance\/applications",
+    "provider": [
+      "saas-advance"
+    ],
+    "consumer": [
+      "saas-trade"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboTicketNotifyService:agency_daily": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saastrade.dubbo.facade.api.DubboTicketNotifyService:agency_daily\/applications",
+    "provider": [
+      "saas-agency"
+    ],
+    "consumer": [
+      "saas-trade"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboTicketNotifyService:daily": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saastrade.dubbo.facade.api.DubboTicketNotifyService:daily\/applications",
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-trade"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboTicketNotifyService:salary": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saastrade.dubbo.facade.api.DubboTicketNotifyService:salary\/applications",
+    "provider": [
+      "saas-salary-api"
+    ],
+    "consumer": [
+      "saas-trade"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboTicketService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saastrade.dubbo.facade.api.DubboTicketService\/applications",
+    "consumer": [
+      "saas-advance",
+      "saas-agency",
+      "saas-daily-wage-api",
+      "saas-dispatch-api",
+      "saas-salary-api"
+    ],
+    "provider": [
+      "saas-trade"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboTicketVerifyNotifyService:agency": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saastrade.dubbo.facade.api.DubboTicketVerifyNotifyService:agency\/applications",
+    "provider": [
+      "saas-agency"
+    ],
+    "consumer": [
+      "saas-trade"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboTicketVerifyNotifyService:dipatch": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saastrade.dubbo.facade.api.DubboTicketVerifyNotifyService:dipatch\/applications",
+    "provider": [
+      "saas-dispatch-api"
+    ],
+    "consumer": [
+      "saas-trade"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboTicketVerifyNotifyService:staff": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saastrade.dubbo.facade.api.DubboTicketVerifyNotifyService:staff\/applications",
+    "provider": [
+      "saas-staff-api"
+    ],
+    "consumer": [
+      "saas-trade"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboTicketVerifyService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saastrade.dubbo.facade.api.DubboTicketVerifyService\/applications",
+    "consumer": [
+      "saas-agency",
+      "saas-dispatch-api",
+      "saas-salary-api",
+      "saas-staff-api"
+    ],
+    "provider": [
+      "saas-trade"
+    ]
+  },
+  "com.huixian.saastrade.dubbo.facade.api.DubboTransferService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saastrade.dubbo.facade.api.DubboTransferService\/applications",
+    "consumer": [
+      "saas-dispatch-api",
+      "saas-salary-api"
+    ],
+    "provider": [
+      "saas-trade"
+    ]
+  },
+  "com.huixian.saaswallet.dubbo.facade.api.DubboAccountQueryService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saaswallet.dubbo.facade.api.DubboAccountQueryService\/applications",
+    "consumer": [
+      "saas-admin-api",
+      "saas-trade"
+    ],
+    "provider": [
+      "saas-wallet"
+    ]
+  },
+  "com.huixian.saaswallet.dubbo.facade.api.DubboAccountService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saaswallet.dubbo.facade.api.DubboAccountService\/applications",
+    "consumer": [
+      "check-account",
+      "saas-advance",
+      "saas-agency",
+      "saas-daily-wage-api",
+      "saas-dispatch-api",
+      "saas-factoring",
+      "saas-salary-api",
+      "saas-staff-api",
+      "saas-trade"
+    ],
+    "provider": [
+      "saas-wallet"
+    ]
+  },
+  "com.huixian.saaswallet.dubbo.facade.api.DubboCardService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saaswallet.dubbo.facade.api.DubboCardService\/applications",
+    "consumer": [
+      "saas-trade"
+    ],
+    "provider": [
+      "saas-wallet"
+    ]
+  },
+  "com.huixian.saaswallet.dubbo.facade.api.DubboMerchantService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saaswallet.dubbo.facade.api.DubboMerchantService\/applications",
+    "consumer": [
+      "check-account",
+      "saas-dispatch-api",
+      "saas-trade"
+    ],
+    "provider": [
+      "saas-wallet"
+    ]
+  },
+  "com.huixian.saaswallet.dubbo.facade.api.DubboOpenAccountService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saaswallet.dubbo.facade.api.DubboOpenAccountService\/applications",
+    "consumer": [
+      "saas-admin-api",
+      "saas-dispatch-api"
+    ],
+    "provider": [
+      "saas-wallet"
+    ]
+  },
+  "com.huixian.saaswallet.dubbo.facade.api.DubboUserService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saaswallet.dubbo.facade.api.DubboUserService\/applications",
+    "consumer": [
+      "saas-dispatch-api",
+      "saas-merchant",
+      "saas-staff-api"
+    ],
+    "provider": [
+      "saas-wallet"
+    ]
+  },
+  "com.huixian.saaswallet.dubbo.facade.api.DubboWalletOrderService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saaswallet.dubbo.facade.api.DubboWalletOrderService\/applications",
+    "consumer": [
+      "saas-merchant",
+      "saas-trade"
+    ],
+    "provider": [
+      "saas-wallet"
+    ]
+  },
+  "com.huixian.saaswebsocket.dubbo.facade.api.DubboNoticeCenterService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saaswebsocket.dubbo.facade.api.DubboNoticeCenterService\/applications",
+    "consumer": [
+      "saas-dispatch-api"
+    ],
+    "provider": [
+      "saas-websocket"
+    ]
+  },
+  "com.huixian.saasworkattendanceapi.dubbo.facade.api.DubboAttendanceService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasworkattendanceapi.dubbo.facade.api.DubboAttendanceService\/applications",
+    "consumer": [
+      "saas-daily-wage-api",
+      "saas-dispatch-api",
+      "saas-employee-manage",
+      "saas-staff-api",
+      "saas-standard-factory-api"
+    ],
+    "provider": [
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasworkattendanceapi.dubbo.facade.api.DubboCustomerAttendanceReplaceService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasworkattendanceapi.dubbo.facade.api.DubboCustomerAttendanceReplaceService\/applications",
+    "consumer": [
+      "saas-agency",
+      "saas-staff-api"
+    ],
+    "provider": [
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasworkattendanceapi.dubbo.facade.api.DubboCustomerAttendanceService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasworkattendanceapi.dubbo.facade.api.DubboCustomerAttendanceService\/applications",
+    "consumer": [
+      "saas-agency",
+      "saas-data-extract",
+      "saas-dispatch-api",
+      "saas-staff-api"
+    ],
+    "provider": [
+      "saas-work-attendance-api"
+    ]
+  },
+  "com.huixian.saasworkattendanceapi.dubbo.facade.api.DubboSignAuditService": {
+    "url": "http:\/\/saas-dubbo-admin.jijiaban.cn\/governance\/services\/com.huixian.saasworkattendanceapi.dubbo.facade.api.DubboSignAuditService\/applications",
+    "consumer": [
+      "saas-agency",
+      "saas-staff-api"
+    ],
+    "provider": [
+      "saas-work-attendance-api"
+    ]
+  }
+}

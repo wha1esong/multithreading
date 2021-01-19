@@ -6,6 +6,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class Test {
 
@@ -35,5 +36,7 @@ public class Test {
 //        Object o = c1.newInstance("String");
 //
 //        System.out.println(o);
+
+        ReentrantLock lock=new ReentrantLock();
     }
 }

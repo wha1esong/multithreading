@@ -2,90 +2,88 @@ package com.chen.Leetcode;
 
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class LRUCache {
+    int size;
+    int capacity;
+    DLinkNode head;
+    DLinkNode tail;
+    HashMap<Integer, DLinkNode> cache = new HashMap<>();
 
-    class DLinkedNode {
+    class DLinkNode {
         int key;
         int val;
-        DLinkedNode prev;
-        DLinkedNode next;
+        DLinkNode prev;
+        DLinkNode next;
 
-        public DLinkedNode() {
-        }
-
-        public DLinkedNode(int key, int val) {
+        public DLinkNode(int key, int val) {
             this.key = key;
             this.val = val;
         }
+
+        public DLinkNode() {
+
+        }
     }
 
-    private int size;
-    private int capacity;
-    private DLinkedNode head;
-    private DLinkedNode tail;
-    private Map<Integer, DLinkedNode> cache = new HashMap<>();
-
     public LRUCache(int capacity) {
-        this.size = 0;
         this.capacity = capacity;
-        head = new DLinkedNode();
-        tail = new DLinkedNode();
+        this.size = 0;
+        head = new DLinkNode();
+        tail = new DLinkNode();
         head.next = tail;
         tail.prev = head;
     }
 
     public int get(int key) {
-        DLinkedNode node = cache.get(key);
-        if (node == null) {
+        DLinkNode dLinkNode = cache.get(key);
+        if (dLinkNode == null) {
             return -1;
         }
-        moveToHead(node);
-        return node.val;
+        moveToHead(dLinkNode);
+        return dLinkNode.val;
+
+    }
+
+    private void moveToHead(DLinkNode dLinkNode) {
+        removeNode(dLinkNode);
+        addToHead(dLinkNode);
+    }
+
+    private void addToHead(DLinkNode dLinkNode) {
+        dLinkNode.next = head.next;
+        dLinkNode.prev = head;
+        head.next.prev = dLinkNode;
+        head.next = dLinkNode;
+    }
+
+    private void removeNode(DLinkNode dLinkNode) {
+        dLinkNode.prev.next = dLinkNode.next;
+        dLinkNode.next.prev = dLinkNode.prev;
     }
 
     public void put(int key, int val) {
-        DLinkedNode node = cache.get(key);
-        if (node == null) {
-            DLinkedNode newNode = new DLinkedNode(key, val);
+        DLinkNode dLinkNode = cache.get(key);
+        if (dLinkNode == null) {
+            DLinkNode newNode = new DLinkNode(key, val);
             cache.put(key, newNode);
             addToHead(newNode);
-            ++size;
+            size++;
             if (size > capacity) {
-                DLinkedNode ret = removeTail();
+                DLinkNode ret = removeTail();
                 cache.remove(ret.key);
-                --size;
+                size--;
             }
         } else {
-            node.val = val;
-            moveToHead(node);
+            dLinkNode.val = val;
+            moveToHead(dLinkNode);
         }
     }
 
-
-    private DLinkedNode removeTail() {
-        DLinkedNode ret = tail.prev;
+    private DLinkNode removeTail() {
+        DLinkNode ret = tail.prev;
         removeNode(ret);
         return ret;
-    }
-
-    private void moveToHead(DLinkedNode node) {
-        removeNode(node);
-        addToHead(node);
-    }
-
-    private void addToHead(DLinkedNode node) {
-        node.prev = head;
-        node.next = head.next;
-        head.next = node;
-        head.next.prev = node;
-    }
-
-    private void removeNode(DLinkedNode node) {
-        node.prev.next = node.next;
-        node.next.prev = node.prev;
-
     }
 
 }

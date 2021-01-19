@@ -14,6 +14,18 @@ public class IndexService {
         System.out.println("IndexService");
     }
 
+    public int A()  {
+        try {
+            System.out.println("进入try");
+            return -1;
+        } catch (Exception e) {
+
+        } finally {
+            System.out.println("执行了finally");
+        }
+        int a = 2;
+        return a;
+    }
 
     public void test() {
         System.out.println("IndexService test method");
